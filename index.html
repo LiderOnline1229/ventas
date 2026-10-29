@@ -1,0 +1,690 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Ventas Fitmewise</title>
+<script>
+  document.documentElement.dataset.theme = 'dark';
+  try { var t = localStorage.getItem('tema-ventas-2'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7;
+  --surface-1: #fcfcfb;
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted: #898781;
+  --grid: #e1e0d9;
+  --axis: #c3c2b7;
+  --border: rgba(11,11,11,0.10);
+  --hover: rgba(11,11,11,0.05);
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --good: #006300;
+  --critical: #d03b3b;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #0d0d0d;
+    --surface-1: #1a1a19;
+    --text-primary: #f0efec;
+    --text-secondary: #c3c2b7;
+    --text-muted: #898781;
+    --grid: #2c2c2a;
+    --axis: #383835;
+    --border: rgba(255,255,255,0.10);
+    --hover: rgba(255,255,255,0.06);
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --good: #0ca30c;
+    --critical: #e66767;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d;
+  --surface-1: #1a1a19;
+  --text-primary: #f0efec;
+  --text-secondary: #c3c2b7;
+  --text-muted: #898781;
+  --grid: #2c2c2a;
+  --axis: #383835;
+  --border: rgba(255,255,255,0.10);
+  --hover: rgba(255,255,255,0.06);
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --good: #0ca30c;
+  --critical: #e66767;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  margin: 0; background: var(--page); color: var(--text-primary);
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+main { max-width: 1240px; margin: 0 auto; padding: 20px 16px 48px; }
+header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; margin-bottom: 16px; }
+h1 { font-size: 22px; margin: 0; font-weight: 650; }
+.sello { color: var(--text-secondary); font-size: 13px; }
+.sello b { color: var(--text-primary); font-weight: 600; }
+.pestanas { display: flex; gap: 4px; border-bottom: 1px solid var(--axis); margin-bottom: 16px; }
+.pestanas button {
+  border: 0; border-bottom: 3px solid transparent; border-radius: 8px 8px 0 0; background: none;
+  padding: 10px 18px; font-size: 15px; color: var(--text-secondary); margin-bottom: -1px;
+}
+.pestanas button[aria-selected="true"] { color: var(--text-primary); font-weight: 650; border-bottom-color: var(--series-1); }
+.filtros { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; margin-bottom: 16px; }
+.filtros label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--text-secondary); }
+select, button {
+  font: inherit; color: var(--text-primary); background: var(--surface-1);
+  border: 1px solid var(--border); border-radius: 8px; padding: 7px 10px; min-height: 36px;
+}
+.cal-caja { position: relative; }
+#f-dias { min-width: 190px; text-align: left; }
+#f-dias::before { content: ""; display: inline-block; width: 14px; height: 13px; margin-right: 8px; vertical-align: -1px;
+  border: 1.5px solid currentColor; border-top-width: 4px; border-radius: 3px; opacity: 0.7; }
+.calendario { position: absolute; z-index: 5; top: calc(100% + 6px); left: 0; width: 300px; box-shadow: 0 8px 28px rgba(0,0,0,0.18); }
+.cal-titulo { font-weight: 650; text-align: center; margin-bottom: 8px; text-transform: capitalize; }
+.cal-grilla { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
+.cal-grilla .dsem { text-align: center; font-size: 11px; color: var(--text-muted); padding: 4px 0; }
+.cal-grilla button {
+  min-height: 34px; padding: 0; border: 0; border-radius: 8px; background: none; font-variant-numeric: tabular-nums;
+}
+.cal-grilla button:hover:not(:disabled) { background: var(--hover); }
+.cal-grilla button.en-rango { background: color-mix(in srgb, var(--series-1) 18%, transparent); border-radius: 0; }
+.cal-grilla button.extremo { background: var(--series-1); color: #fff; font-weight: 650; border-radius: 8px; }
+.cal-grilla button.hoy { box-shadow: inset 0 0 0 1px var(--series-1); }
+.cal-ayuda { font-size: 12px; color: var(--text-muted); text-align: center; margin-top: 8px; }
+.rapidos { display: flex; flex-wrap: wrap; gap: 6px; }
+.rapidos button[aria-pressed="true"] { border-color: var(--series-1); color: var(--series-1); font-weight: 600; }
+button { cursor: pointer; }
+button:disabled { cursor: default; opacity: 0.45; }
+.kpi:disabled { opacity: 1; }
+button:hover, select:hover { background: var(--hover); }
+.tema { margin-left: auto; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.tarjeta {
+  background: var(--surface-1); border: 1.5px solid #39ff14; border-radius: 12px; padding: 14px 16px;
+  box-shadow: 0 0 8px rgba(57, 255, 20, 0.25);
+}
+.kpi { cursor: pointer; text-align: left; display: block; width: 100%; min-height: 0; }
+.kpi .nombre { color: var(--text-secondary); font-size: 12px; }
+.kpi .valor { font-size: 24px; font-weight: 650; margin-top: 2px; }
+.kpi .nota { color: var(--text-muted); font-size: 12px; margin-top: 2px; }
+.rejilla { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-bottom: 12px; }
+.ancho { grid-column: 1 / -1; }
+@media (max-width: 820px) { .rejilla { grid-template-columns: minmax(0, 1fr); } }
+h2 { font-size: 15px; margin: 0 0 2px; font-weight: 620; }
+.sub { color: var(--text-muted); font-size: 12px; margin: 0 0 12px; }
+.leyenda { display: flex; gap: 16px; font-size: 12px; color: var(--text-secondary); margin-bottom: 8px; }
+.leyenda i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+svg text { fill: var(--text-muted); font-size: 11px; }
+.barra-dia { cursor: pointer; }
+.barras { display: flex; flex-direction: column; gap: 4px; }
+.fila-barra {
+  display: grid; grid-template-columns: minmax(90px, 38%) 1fr auto; gap: 10px; align-items: center;
+  padding: 3px 6px; border-radius: 6px; cursor: pointer; border: 0; background: none; text-align: left; min-height: 0;
+}
+.fila-barra:hover, .fila-barra.activa { background: var(--hover); }
+.fila-barra .etq { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text-secondary); font-size: 13px; }
+.fila-barra .pista { height: 14px; display: flex; gap: 2px; }
+.fila-barra .seg { height: 100%; border-radius: 0 4px 4px 0; min-width: 2px; }
+.fila-barra .seg.a { background: var(--series-1); }
+.fila-barra .seg.b { background: var(--series-2); }
+.fila-barra .seg.a + .seg.b { border-radius: 0 4px 4px 0; }
+.fila-barra .seg.a:has(+ .seg.b) { border-radius: 0; }
+.fila-barra .num { font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: left; color: var(--text-muted); font-weight: 500; padding: 6px 8px; border-bottom: 1px solid var(--axis); white-space: nowrap; }
+td { padding: 6px 8px; border-bottom: 1px solid var(--grid); }
+td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tbody tr.clic { cursor: pointer; }
+tbody tr.clic:hover { background: var(--hover); }
+.tabla-scroll { overflow-x: auto; max-height: 520px; overflow-y: auto; }
+.chip { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 99px; border: 1px solid var(--border); color: var(--text-secondary); white-space: nowrap; }
+.detalle-cab { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.vacio { color: var(--text-muted); padding: 24px 0; text-align: center; }
+#tip {
+  position: fixed; pointer-events: none; z-index: 10; display: none;
+  background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--border);
+  border-radius: 8px; padding: 8px 10px; font-size: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); max-width: 260px;
+}
+#tip b { display: block; margin-bottom: 2px; }
+.error { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 24px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Ventas Fitmewise</h1>
+    <div class="sello" id="sello"></div>
+  </header>
+
+  <div id="app">
+    <nav class="pestanas" role="tablist">
+      <button type="button" role="tab" data-pestana="general" aria-selected="true">General</button>
+      <button type="button" role="tab" data-pestana="callcenter" aria-selected="false">Call Center</button>
+    </nav>
+    <div class="filtros">
+      <label>Mes <select id="f-mes"></select></label>
+      <label>Sede <select id="f-sede"></select></label>
+      <label id="l-canal">Canal
+        <select id="f-canal">
+          <option value="todos">Todos</option>
+          <option value="sedes">Asesores de sede (sin Call Center)</option>
+          <option value="asesor">Todos los asesores</option>
+          <option value="auto">Solo automático / web</option>
+        </select>
+      </label>
+      <div class="cal-caja">
+        <label>Días <button type="button" id="f-dias" aria-haspopup="dialog" aria-expanded="false"></button></label>
+        <div class="calendario tarjeta" id="calendario" role="dialog" aria-label="Elegir días" hidden></div>
+        <input type="hidden" id="f-desde"><input type="hidden" id="f-hasta">
+      </div>
+      <div class="rapidos" role="group" aria-label="Periodos rápidos">
+        <button type="button" data-rapido="hoy">Hoy</button>
+        <button type="button" data-rapido="ayer">Ayer</button>
+        <button type="button" data-rapido="7">Últimos 7 días</button>
+        <button type="button" data-rapido="mes">Mes completo</button>
+      </div>
+      <button class="tema" id="tema" type="button" title="Cambiar modo día / noche">Modo noche</button>
+    </div>
+
+    <section class="kpis" id="kpis"></section>
+
+    <section class="rejilla">
+      <div class="tarjeta ancho">
+        <h2>Ventas por día</h2>
+        <p class="sub">En pesos. Toca un día para ver sus ventas.</p>
+        <div class="leyenda" id="leyenda-dias"><span><i style="background:var(--series-1)"></i>Asesores</span><span><i style="background:var(--series-2)"></i>Automático / web (débito, pagos en línea)</span></div>
+        <div id="g-dias"></div>
+      </div>
+      <div class="tarjeta">
+        <h2>Ventas por sede</h2>
+        <p class="sub">En pesos. Toca una sede para filtrar todo el tablero.</p>
+        <div class="barras" id="g-sedes"></div>
+      </div>
+      <div class="tarjeta">
+        <h2>Método de pago</h2>
+        <p class="sub">En pesos. Toca uno para ver sus ventas.</p>
+        <div class="barras" id="g-metodos"></div>
+      </div>
+      <div class="tarjeta">
+        <h2>Productos más vendidos</h2>
+        <p class="sub">Número de ventas (top 12).</p>
+        <div class="barras" id="g-productos"></div>
+      </div>
+      <div class="tarjeta">
+        <h2>Ranking de asesores</h2>
+        <p class="sub">Sin cobros automáticos. Toca un asesor para ver sus ventas.</p>
+        <div class="tabla-scroll" style="max-height:380px"><table id="t-asesores"></table></div>
+      </div>
+      <div class="tarjeta ancho" id="detalle">
+        <div class="detalle-cab">
+          <div><h2 id="detalle-titulo">Últimas ventas</h2><p class="sub" id="detalle-sub" style="margin:0"></p></div>
+          <button type="button" id="detalle-limpiar" hidden>Ver últimas ventas</button>
+        </div>
+        <div class="tabla-scroll"><table id="t-detalle"></table></div>
+      </div>
+    </section>
+  </div>
+</main>
+<div id="tip" role="tooltip"></div>
+
+<script src="datos-dashboard/dashboard-datos.js" charset="utf-8"></script>
+<script>
+(function () {
+  // Columnas de cada fila en datos-dashboard/dashboard-AAAA-MM.js (ver convertir-dashboard.ps1)
+  var C = { fecha: 0, sede: 1, tipo: 2, producto: 3, valor: 4, metodo: 5, asesor: 6, estado: 7, subtipo: 8, comprobante: 9, original: 10 };
+
+  // Asesores de Call Center: nombre completo tal como aparece en Fitmewise (mayúsculas y tildes no importan).
+  // Para agregar o quitar a alguien, edita esta lista.
+  var CALL_CENTER = [
+    'OSCAR DAVID ALFONSO LOPEZ',
+    'SERGIO ANDRES VILLAMIZAR BERNAL',
+    'TATIANA CAROLINA ORDUZ GOMEZ',
+    'ALEJANDRA RINCON GALVIS'
+  ];
+  function normalizar(s) { return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toUpperCase().replace(/\s+/g, ' ').trim(); }
+  var esDeCallCenter = {};
+  CALL_CENTER.forEach(function (n) { esDeCallCenter[normalizar(n)] = true; });
+  function esCallCenter(r) { return !!esDeCallCenter[normalizar(r[C.asesor])]; }
+
+  var app = document.getElementById('app');
+  if (!window.SABANA || !window.SABANA.meses || !window.SABANA.meses.length) {
+    app.innerHTML = '<div class="error"><h2>Todavía no hay datos</h2><p>Falta el archivo <code>datos-dashboard/dashboard-datos.js</code>. Se crea solo con la próxima descarga, o ejecutando <code>convertir-dashboard.ps1</code>.</p></div>';
+    return;
+  }
+
+  // ---------- Tema día / noche (se recuerda en este navegador) ----------
+  var raiz = document.documentElement, btnTema = document.getElementById('tema');
+  function temaActual() {
+    return raiz.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  }
+  function pintarBotonTema() { btnTema.textContent = temaActual() === 'dark' ? 'Modo día' : 'Modo noche'; }
+  // Modo noche por defecto; solo cambia si la persona toca el botón
+  raiz.dataset.theme = 'dark';
+  try { var t = localStorage.getItem('tema-ventas-2'); if (t) raiz.dataset.theme = t; } catch (e) {}
+  pintarBotonTema();
+  btnTema.onclick = function () {
+    raiz.dataset.theme = temaActual() === 'dark' ? 'light' : 'dark';
+    try { localStorage.setItem('tema-ventas-2', raiz.dataset.theme); } catch (e) {}
+    pintarBotonTema();
+  };
+
+  // ---------- Formatos ----------
+  var fmtPeso = new Intl.NumberFormat('es-CO', { style: 'currency', currency: 'COP', maximumFractionDigits: 0 });
+  var fmtNum = new Intl.NumberFormat('es-CO');
+  function corto(v) {
+    if (Math.abs(v) >= 1e6) return '$' + (v / 1e6).toLocaleString('es-CO', { maximumFractionDigits: 1 }) + ' M';
+    if (Math.abs(v) >= 1e3) return '$' + Math.round(v / 1e3).toLocaleString('es-CO') + ' mil';
+    return fmtPeso.format(v);
+  }
+  var MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+  function nombreMes(m) { var p = m.split('-'); return MESES[+p[1] - 1] + ' ' + p[0]; }
+  function fechaCorta(f) { var p = f.slice(0, 10).split('-'); return p[2] + '/' + p[1]; }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function capital(s) { return s ? s.toLowerCase().replace(/(^|\s)\S/g, function (x) { return x.toUpperCase(); }).replace(/\s+/g, ' ') : ''; }
+
+  // ---------- Sello "Datos al" ----------
+  document.getElementById('sello').innerHTML = 'Datos al <b>' + esc(SABANA.generado.replace(' ', ' · ')) + '</b> · se actualiza cada 2 horas';
+
+  // ---------- Filtros ----------
+  var selMes = document.getElementById('f-mes'), selSede = document.getElementById('f-sede'), selCanal = document.getElementById('f-canal');
+  var meses = SABANA.meses.slice().sort().reverse();
+  selMes.innerHTML = meses.map(function (m) { return '<option value="' + m + '">' + nombreMes(m) + '</option>'; }).join('');
+
+  var estado = { detalle: null, pestana: 'general' };
+  try {
+    var guardado = JSON.parse(sessionStorage.getItem('filtros-ventas') || 'null');
+    if (guardado) {
+      if (meses.indexOf(guardado.mes) >= 0) selMes.value = guardado.mes;
+      if (selCanal.querySelector('option[value="' + guardado.canal + '"]')) selCanal.value = guardado.canal;
+      if (guardado.pestana === 'callcenter') estado.pestana = 'callcenter';
+      estado.sedeGuardada = guardado.sede;
+    }
+  } catch (e) {}
+
+  // Clasifica las filas de un mes: ventas que cuentan, devoluciones y lo que no cuenta
+  function preparar(mes) {
+    var filas = (window.SABANA_MES && SABANA_MES[mes]) || [];
+    var devueltas = {};
+    filas.forEach(function (r) {
+      if (r[C.estado] === 'devolución' || r[C.valor] < 0) {
+        var num = String(r[C.original]).split(' - ')[0].trim();
+        if (num) devueltas[r[C.sede] + '|' + num] = true;
+      }
+    });
+    var ventas = [], devoluciones = [], gratis = 0;
+    filas.forEach(function (r) {
+      if (r[C.estado] === 'devolución' || r[C.valor] < 0) { devoluciones.push(r); return; }
+      if (r[C.estado] !== 'pagado') return;
+      if (r[C.valor] <= 1) { gratis++; return; }            // access day, cortesías, control interno
+      if (devueltas[r[C.sede] + '|' + r[C.comprobante]]) return; // venta que luego se devolvió
+      ventas.push(r);
+    });
+    return { ventas: ventas, devoluciones: devoluciones, gratis: gratis };
+  }
+
+  function esAuto(r) { return !r[C.asesor]; }
+  function pasaCanal(r) {
+    if (estado.pestana === 'callcenter') return esCallCenter(r);
+    switch (selCanal.value) {
+      case 'sedes':      return !esAuto(r) && !esCallCenter(r);
+      case 'asesor':     return !esAuto(r);
+      case 'auto':       return esAuto(r);
+      default:           return true;
+    }
+  }
+  // Rango de días elegido (AAAA-MM-DD); siempre dentro del mes seleccionado
+  var selDesde = document.getElementById('f-desde'), selHasta = document.getElementById('f-hasta');
+  function pasaFecha(r) { var d = r[C.fecha].slice(0, 10); return d >= selDesde.value && d <= selHasta.value; }
+  function filtrar(lista) {
+    var sede = selSede.value;
+    return lista.filter(function (r) {
+      if (sede !== 'todas' && r[C.sede] !== sede) return false;
+      return pasaFecha(r) && pasaCanal(r);
+    });
+  }
+  function suma(lista) { return lista.reduce(function (s, r) { return s + r[C.valor]; }, 0); }
+
+  // ---------- Tooltip ----------
+  var tip = document.getElementById('tip');
+  function mostrarTip(e, html) {
+    tip.innerHTML = html; tip.style.display = 'block';
+    var x = e.clientX + 14, y = e.clientY + 14, w = tip.offsetWidth, h = tip.offsetHeight;
+    if (x + w > innerWidth - 8) x = e.clientX - w - 14;
+    if (y + h > innerHeight - 8) y = e.clientY - h - 14;
+    tip.style.left = x + 'px'; tip.style.top = y + 'px';
+  }
+  function ocultarTip() { tip.style.display = 'none'; }
+
+  // ---------- Pintado ----------
+  var datosMes;
+  function render() {
+    try { sessionStorage.setItem('filtros-ventas', JSON.stringify({ mes: selMes.value, sede: selSede.value, canal: selCanal.value, pestana: estado.pestana })); } catch (e) {}
+    var cc = estado.pestana === 'callcenter';
+    document.querySelectorAll('.pestanas button').forEach(function (b) { b.setAttribute('aria-selected', String(b.dataset.pestana === estado.pestana)); });
+    document.getElementById('l-canal').hidden = cc;
+    document.getElementById('leyenda-dias').hidden = cc;
+    var v = filtrar(datosMes.ventas), dev = filtrar(datosMes.devoluciones);
+    renderKpis(v, dev);
+    renderDias(v);
+    renderBarras('g-sedes', agrupar(filtrarSinSede(datosMes.ventas), C.sede), 'valor', function (k) {
+      selSede.value = selSede.value === k ? 'todas' : k; estado.detalle = null; render();
+    }, selSede.value);
+    renderBarras('g-metodos', agrupar(v, C.metodo), 'valor', function (k) {
+      verDetalle('Método de pago: ' + k, function (r) { return r[C.metodo] === k; });
+    });
+    renderBarras('g-productos', agrupar(v, C.producto).sort(function (a, b) { return b.n - a.n; }).slice(0, 12), 'n', function (k) {
+      verDetalle('Producto: ' + k, function (r) { return r[C.producto] === k; });
+    });
+    renderAsesores(v);
+    renderDetalle(v, dev);
+  }
+  function filtrarSinSede(lista) { return lista.filter(function (r) { return pasaFecha(r) && pasaCanal(r); }); }
+
+  function agrupar(lista, col) {
+    var m = {};
+    lista.forEach(function (r) {
+      var k = r[col] || '(sin dato)';
+      var g = m[k] || (m[k] = { clave: k, n: 0, valor: 0, a: 0, b: 0, na: 0, nb: 0 });
+      g.n++; g.valor += r[C.valor];
+      if (esAuto(r)) { g.b += r[C.valor]; g.nb++; } else { g.a += r[C.valor]; g.na++; }
+    });
+    return Object.keys(m).map(function (k) { return m[k]; }).sort(function (x, y) { return y.valor - x.valor; });
+  }
+
+  function renderKpis(v, dev) {
+    var total = suma(v), n = v.length;
+    var ultimoDia = v.reduce(function (d, r) { return r[C.fecha] > d ? r[C.fecha] : d; }, '').slice(0, 10);
+    var hoy = v.filter(function (r) { return r[C.fecha].slice(0, 10) === ultimoDia; });
+    var nuevos = v.filter(function (r) { return r[C.subtipo] === 'Primera cuota de siempre'; });
+    var auto = v.filter(esAuto);
+    var tarjetas = [
+      { nombre: esMesCompleto() ? 'Ventas del mes' : 'Ventas ' + textoRango(), valor: corto(total), nota: fmtNum.format(n) + ' ventas', ver: null },
+      { nombre: 'Ticket promedio', valor: corto(n ? total / n : 0), nota: 'valor promedio por venta', ver: null },
+      { nombre: ultimoDia ? 'Último día (' + fechaCorta(ultimoDia) + ')' : 'Último día', valor: corto(suma(hoy)), nota: fmtNum.format(hoy.length) + ' ventas',
+        ver: ['Ventas del ' + (ultimoDia ? fechaCorta(ultimoDia) : ''), function (r) { return r[C.fecha].slice(0, 10) === ultimoDia; }] },
+      { nombre: 'Clientes nuevos', valor: fmtNum.format(nuevos.length), nota: corto(suma(nuevos)) + ' · primera cuota',
+        ver: ['Clientes nuevos (primera cuota)', function (r) { return r[C.subtipo] === 'Primera cuota de siempre'; }] },
+      estado.pestana === 'callcenter' ? participacion(total) :
+      { nombre: 'Automático / web', valor: corto(suma(auto)), nota: fmtNum.format(auto.length) + ' cobros sin asesor',
+        ver: ['Cobros automáticos / web', esAuto] },
+      { nombre: 'Devoluciones', valor: fmtNum.format(dev.length), nota: corto(-suma(dev)) + ' devueltos', ver: ['Devoluciones', null] }
+    ];
+    var cont = document.getElementById('kpis');
+    cont.innerHTML = tarjetas.map(function (t, i) {
+      return '<button type="button" class="tarjeta kpi" data-i="' + i + '"' + (t.ver ? '' : ' disabled style="cursor:default"') + '>' +
+        '<div class="nombre">' + esc(t.nombre) + '</div><div class="valor">' + esc(t.valor) + '</div><div class="nota">' + esc(t.nota) + '</div></button>';
+    }).join('');
+    cont.querySelectorAll('.kpi').forEach(function (b) {
+      var t = tarjetas[+b.dataset.i];
+      if (t.ver) b.onclick = function () { if (t.ver[1]) verDetalle(t.ver[0], t.ver[1]); else verDevoluciones(); };
+    });
+  }
+
+  function renderDias(v) {
+    var mes = selMes.value, p = mes.split('-');
+    var primero = +selDesde.value.slice(8, 10), dias = +selHasta.value.slice(8, 10) - primero + 1;
+    var porDia = [];
+    for (var d = 0; d < dias; d++) porDia.push({ dia: primero + d, a: 0, b: 0, na: 0, nb: 0 });
+    v.forEach(function (r) {
+      var g = porDia[+r[C.fecha].slice(8, 10) - primero];
+      if (!g) return;
+      if (esAuto(r)) { g.b += r[C.valor]; g.nb++; } else { g.a += r[C.valor]; g.na++; }
+    });
+    var max = Math.max.apply(null, porDia.map(function (g) { return g.a + g.b; }).concat([1]));
+    // Escala "bonita" para el eje
+    var paso = Math.pow(10, Math.floor(Math.log10(max / 4))), mults = [1, 2, 2.5, 5, 10];
+    for (var i = 0; i < mults.length; i++) { if (max / (paso * mults[i]) <= 5) { paso *= mults[i]; break; } }
+    var tope = Math.ceil(max / paso) * paso;
+
+    var cont = document.getElementById('g-dias');
+    var W = Math.max(320, cont.clientWidth || 1180), H = 260, mi = 58, md = 8, ms = 10, mb = 26, ancho = (W - mi - md) / dias, barra = Math.max(4, Math.min(28, ancho - 6));
+    var y = function (val) { return ms + (H - ms - mb) * (1 - val / tope); };
+    var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="' + W + '" height="' + H + '" style="display:block" role="img" aria-label="Ventas por día en pesos">';
+    for (var t = 0; t <= tope + 1; t += paso) {
+      s += '<line x1="' + mi + '" x2="' + (W - md) + '" y1="' + y(t) + '" y2="' + y(t) + '" stroke="var(--grid)" stroke-width="1"/>' +
+           '<text x="' + (mi - 8) + '" y="' + (y(t) + 4) + '" text-anchor="end">' + corto(t).replace('$0', '0') + '</text>';
+    }
+    s += '<line x1="' + mi + '" x2="' + (W - md) + '" y1="' + y(0) + '" y2="' + y(0) + '" stroke="var(--axis)" stroke-width="1"/>';
+    porDia.forEach(function (g, i) {
+      var x = mi + i * ancho + (ancho - barra) / 2, ya = y(g.a), yb = y(g.a + g.b);
+      var hA = y(0) - ya, hB = ya - yb;
+      if (g.a > 0) s += '<path d="' + barraPath(x, ya, barra, hA, g.b > 0 ? 0 : 4) + '" fill="var(--series-1)"/>';
+      if (g.b > 0) s += '<path d="' + barraPath(x, yb, barra, Math.max(0, hB - (g.a > 0 ? 2 : 0)), 4) + '" fill="var(--series-2)"/>';
+      if (dias <= 31 && (i % (ancho < 22 ? 2 : 1) === 0 || i === dias - 1))
+        s += '<text x="' + (x + barra / 2) + '" y="' + (H - 8) + '" text-anchor="middle">' + g.dia + '</text>';
+      s += '<rect class="barra-dia" data-i="' + i + '" x="' + (mi + i * ancho) + '" y="' + ms + '" width="' + ancho + '" height="' + (H - ms - mb) + '" fill="transparent"/>';
+    });
+    s += '</svg>';
+    cont.innerHTML = s;
+    cont.querySelectorAll('.barra-dia').forEach(function (r) {
+      var g = porDia[+r.dataset.i], fecha = mes + '-' + String(g.dia).padStart(2, '0');
+      r.onmousemove = function (e) {
+        r.setAttribute('fill', 'var(--hover)');
+        mostrarTip(e, '<b>' + g.dia + ' de ' + MESES[+p[1] - 1] + '</b>' + corto(g.a + g.b) + ' · ' + (g.na + g.nb) + ' ventas<br>' +
+          '<span style="color:var(--text-secondary)">Asesores: ' + corto(g.a) + ' (' + g.na + ')<br>Automático / web: ' + corto(g.b) + ' (' + g.nb + ')</span>');
+      };
+      r.onmouseleave = function () { r.setAttribute('fill', 'transparent'); ocultarTip(); };
+      r.onclick = function () { verDetalle('Ventas del ' + fechaCorta(fecha), function (x) { return x[C.fecha].slice(0, 10) === fecha; }); };
+    });
+  }
+  // Barra con esquinas redondeadas solo arriba (el extremo del dato), apoyada en la base
+  function barraPath(x, y, w, h, r) {
+    if (h <= 0) return '';
+    r = Math.min(r, h, w / 2);
+    return 'M' + x + ',' + (y + h) + 'V' + (y + r) + 'Q' + x + ',' + y + ' ' + (x + r) + ',' + y + 'H' + (x + w - r) +
+      'Q' + (x + w) + ',' + y + ' ' + (x + w) + ',' + (y + r) + 'V' + (y + h) + 'Z';
+  }
+
+  function renderBarras(id, grupos, medida, alClic, activa) {
+    var cont = document.getElementById(id);
+    if (!grupos.length) { cont.innerHTML = '<div class="vacio">Sin ventas con estos filtros</div>'; return; }
+    var max = Math.max.apply(null, grupos.map(function (g) { return g[medida]; }));
+    cont.innerHTML = grupos.map(function (g, i) {
+      var pa = medida === 'n' ? g.na : g.a, pb = medida === 'n' ? g.nb : g.b;
+      return '<button type="button" class="fila-barra' + (activa === g.clave ? ' activa' : '') + '" data-i="' + i + '">' +
+        '<span class="etq" title="' + esc(g.clave) + '">' + esc(capital(g.clave)) + '</span>' +
+        '<span class="pista">' +
+          (pa > 0 ? '<span class="seg a" style="width:' + (pa / max * 100) + '%"></span>' : '') +
+          (pb > 0 ? '<span class="seg b" style="width:' + (pb / max * 100) + '%"></span>' : '') +
+        '</span>' +
+        '<span class="num">' + (medida === 'n' ? fmtNum.format(g.n) : corto(g.valor)) + '</span></button>';
+    }).join('');
+    cont.querySelectorAll('.fila-barra').forEach(function (b) {
+      var g = grupos[+b.dataset.i];
+      b.onmousemove = function (e) {
+        mostrarTip(e, '<b>' + esc(g.clave) + '</b>' + fmtPeso.format(g.valor) + ' · ' + fmtNum.format(g.n) + ' ventas<br>' +
+          '<span style="color:var(--text-secondary)">Asesores: ' + corto(g.a) + ' (' + g.na + ')<br>Automático / web: ' + corto(g.b) + ' (' + g.nb + ')</span>');
+      };
+      b.onmouseleave = ocultarTip;
+      b.onclick = function () { ocultarTip(); alClic(g.clave); };
+    });
+  }
+
+  function renderAsesores(v) {
+    var grupos = agrupar(v.filter(function (r) { return !esAuto(r); }), C.asesor);
+    var tabla = document.getElementById('t-asesores');
+    if (!grupos.length) { tabla.innerHTML = '<tr><td class="vacio">Sin ventas de asesores con estos filtros</td></tr>'; return; }
+    tabla.innerHTML = '<thead><tr><th>#</th><th>Asesor</th><th class="n">Ventas</th><th class="n">Valor</th><th class="n">Ticket</th></tr></thead><tbody>' +
+      grupos.map(function (g, i) {
+        return '<tr class="clic" data-i="' + i + '"><td>' + (i + 1) + '</td><td>' + esc(capital(g.clave)) + '</td><td class="n">' + fmtNum.format(g.n) +
+          '</td><td class="n">' + fmtPeso.format(g.valor) + '</td><td class="n">' + corto(g.valor / g.n) + '</td></tr>';
+      }).join('') + '</tbody>';
+    tabla.querySelectorAll('tr.clic').forEach(function (tr) {
+      var g = grupos[+tr.dataset.i];
+      tr.onclick = function () { verDetalle('Asesor: ' + capital(g.clave), function (r) { return r[C.asesor] === g.clave; }); };
+    });
+  }
+
+  // ---------- Detalle (lista de ventas detrás de cada número) ----------
+  function verDetalle(titulo, filtro) { estado.detalle = { titulo: titulo, filtro: filtro }; render(); irADetalle(); }
+  function verDevoluciones() { estado.detalle = { titulo: 'Devoluciones', devoluciones: true }; render(); irADetalle(); }
+  function irADetalle() { document.getElementById('detalle').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  document.getElementById('detalle-limpiar').onclick = function () { estado.detalle = null; render(); };
+
+  function renderDetalle(v, dev) {
+    var d = estado.detalle, lista, limite = 0;
+    if (!d) { lista = v.slice().sort(porFechaDesc); limite = 25; }
+    else if (d.devoluciones) lista = dev.slice().sort(porFechaDesc);
+    else lista = v.filter(d.filtro).sort(porFechaDesc);
+    document.getElementById('detalle-titulo').textContent = d ? d.titulo : 'Últimas ventas';
+    document.getElementById('detalle-sub').textContent = d
+      ? fmtNum.format(lista.length) + ' movimientos · ' + fmtPeso.format(suma(lista))
+      : 'Las 25 más recientes con los filtros de arriba';
+    document.getElementById('detalle-limpiar').hidden = !d;
+    var filas = limite ? lista.slice(0, limite) : lista;
+    var tabla = document.getElementById('t-detalle');
+    if (!filas.length) { tabla.innerHTML = '<tr><td class="vacio">Sin movimientos</td></tr>'; return; }
+    tabla.innerHTML = '<thead><tr><th>Fecha</th><th>Sede</th><th>Producto</th><th>Asesor</th><th>Método</th><th>Tipo de cliente</th><th class="n">Valor</th></tr></thead><tbody>' +
+      filas.map(function (r) {
+        return '<tr><td style="white-space:nowrap">' + fechaCorta(r[C.fecha]) + ' ' + r[C.fecha].slice(11, 16) + '</td><td>' + esc(capital(r[C.sede])) +
+          '</td><td>' + esc(r[C.producto]) + '</td><td>' + (esAuto(r) ? '<span class="chip">automático / web</span>' : esc(capital(r[C.asesor]))) +
+          '</td><td>' + esc(r[C.metodo]) + '</td><td>' + esc(tipoCliente(r)) + '</td><td class="n">' + fmtPeso.format(r[C.valor]) + '</td></tr>';
+      }).join('') + '</tbody>';
+  }
+  function porFechaDesc(a, b) { return a[C.fecha] < b[C.fecha] ? 1 : -1; }
+  function tipoCliente(r) {
+    return { 'Primera cuota de siempre': 'Nuevo', 'Cuota renovada': 'Renovación', 'Cuota cambiada': 'Cambio de plan' }[r[C.subtipo]] || r[C.tipo];
+  }
+
+  // ---------- Arranque ----------
+  // Cada mes vive en su propio archivo; se carga la primera vez que se elige
+  function cargarMes() {
+    var mes = selMes.value;
+    if (window.SABANA_MES && SABANA_MES[mes]) return mostrarMes();
+    selMes.disabled = true;
+    var s = document.createElement('script');
+    s.src = 'datos-dashboard/dashboard-' + mes + '.js';
+    s.charset = 'utf-8';
+    s.onload = function () { selMes.disabled = false; mostrarMes(); };
+    s.onerror = function () {
+      selMes.disabled = false;
+      alert('No se encontraron los datos de ' + nombreMes(mes) + '. Se crean con la próxima descarga.');
+    };
+    document.body.appendChild(s);
+  }
+  function mostrarMes() {
+    datosMes = preparar(selMes.value);
+    var sedes = {}; datosMes.ventas.forEach(function (r) { sedes[r[C.sede]] = 1; });
+    var previa = estado.sedeGuardada || selSede.value; estado.sedeGuardada = null;
+    selSede.innerHTML = '<option value="todas">Todas las sedes</option>' + Object.keys(sedes).sort().map(function (s) {
+      return '<option value="' + esc(s) + '">' + esc(capital(s)) + '</option>';
+    }).join('');
+    selSede.value = sedes[previa] ? previa : 'todas';
+    var l = limitesMes();
+    ponerRango(l.ini, l.fin);   // al cambiar de mes se ve el mes completo
+    render();
+  }
+  selMes.onchange = cargarMes;
+  selSede.onchange = function () { estado.detalle = null; render(); };
+
+  // ---------- Filtro por días (calendario) ----------
+  var btnDias = document.getElementById('f-dias'), cal = document.getElementById('calendario');
+  var DSEM = ['L', 'M', 'M', 'J', 'V', 'S', 'D'];
+  function iso(a, m, d) { return a + '-' + String(m).padStart(2, '0') + '-' + String(d).padStart(2, '0'); }
+  function hoyIso() { var h = new Date(); return iso(h.getFullYear(), h.getMonth() + 1, h.getDate()); }
+  function limitesMes() {
+    var p = selMes.value.split('-');
+    return { a: +p[0], m: +p[1], ini: iso(p[0], p[1], 1), fin: iso(p[0], p[1], new Date(+p[0], +p[1], 0).getDate()) };
+  }
+  function esMesCompleto() { var l = limitesMes(); return selDesde.value === l.ini && selHasta.value === l.fin; }
+  function textoRango() {
+    var d = +selDesde.value.slice(8, 10), h = +selHasta.value.slice(8, 10), mes = MESES[limitesMes().m - 1];
+    return d === h ? 'del ' + d + ' de ' + mes : 'del ' + d + ' al ' + h + ' de ' + mes;
+  }
+  function ponerRango(desde, hasta) {
+    var l = limitesMes();
+    if (desde > hasta) { var t = desde; desde = hasta; hasta = t; }
+    selDesde.value = desde < l.ini ? l.ini : desde > l.fin ? l.fin : desde;
+    selHasta.value = hasta > l.fin ? l.fin : hasta < l.ini ? l.ini : hasta;
+    btnDias.textContent = esMesCompleto() ? 'Todo el mes' : textoRango().replace(/^del /, '');
+    var hoy = hoyIso(), enMes = hoy >= l.ini && hoy <= l.fin;
+    document.querySelectorAll('.rapidos button').forEach(function (b) {
+      var r = b.dataset.rapido;
+      b.disabled = (r === 'hoy' || r === 'ayer' || r === '7') && !enMes;
+      b.setAttribute('aria-pressed', String(r === 'mes' && esMesCompleto()));
+    });
+    estado.detalle = null;
+  }
+  function restarDias(fechaIso, n) {
+    var p = fechaIso.split('-'), f = new Date(+p[0], +p[1] - 1, +p[2] - n);
+    return iso(f.getFullYear(), f.getMonth() + 1, f.getDate());
+  }
+  document.querySelectorAll('.rapidos button').forEach(function (b) {
+    b.onclick = function () {
+      var l = limitesMes(), hoy = hoyIso();
+      if (b.dataset.rapido === 'mes') ponerRango(l.ini, l.fin);
+      else if (b.dataset.rapido === 'hoy') ponerRango(hoy, hoy);
+      else if (b.dataset.rapido === 'ayer') { var ay = restarDias(hoy, 1); ponerRango(ay, ay); }
+      else ponerRango(restarDias(hoy, 6), hoy);
+      cerrarCalendario(); render();
+    };
+  });
+
+  // Primer toque = primer día; segundo toque = último día (y se cierra)
+  var eligiendo = null;
+  function pintarCalendario() {
+    var l = limitesMes(), dias = +l.fin.slice(8, 10), hoy = hoyIso();
+    var vacios = (new Date(l.a, l.m - 1, 1).getDay() + 6) % 7;   // semana empieza el lunes
+    var h = '<div class="cal-titulo">' + MESES[l.m - 1] + ' ' + l.a + '</div><div class="cal-grilla">' +
+      DSEM.map(function (d) { return '<span class="dsem">' + d + '</span>'; }).join('');
+    for (var i = 0; i < vacios; i++) h += '<span></span>';
+    var desde = eligiendo || selDesde.value, hasta = eligiendo || selHasta.value;
+    for (var d = 1; d <= dias; d++) {
+      var f = iso(l.a, l.m, d), cls = [];
+      if (f >= desde && f <= hasta) cls.push(f === desde || f === hasta ? 'extremo' : 'en-rango');
+      if (f === hoy) cls.push('hoy');
+      h += '<button type="button" data-f="' + f + '" class="' + cls.join(' ') + '"' + (f > hoy ? ' disabled' : '') + '>' + d + '</button>';
+    }
+    h += '</div><div class="cal-ayuda">' + (eligiendo ? 'Ahora toca el último día' : 'Toca el primer día y luego el último') + '</div>';
+    cal.innerHTML = h;
+    cal.querySelectorAll('.cal-grilla button').forEach(function (b) {
+      b.onclick = function (e) {
+        e.stopPropagation();
+        if (!eligiendo) { eligiendo = b.dataset.f; pintarCalendario(); return; }
+        ponerRango(eligiendo, b.dataset.f); eligiendo = null;
+        cerrarCalendario(); render();
+      };
+    });
+  }
+  function abrirCalendario() { eligiendo = null; pintarCalendario(); cal.hidden = false; btnDias.setAttribute('aria-expanded', 'true'); }
+  function cerrarCalendario() { eligiendo = null; cal.hidden = true; btnDias.setAttribute('aria-expanded', 'false'); }
+  btnDias.onclick = function (e) { e.stopPropagation(); if (cal.hidden) abrirCalendario(); else cerrarCalendario(); };
+  cal.onclick = function (e) { e.stopPropagation(); };
+  document.addEventListener('click', function () { if (!cal.hidden) cerrarCalendario(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !cal.hidden) cerrarCalendario(); });
+  selCanal.onchange = function () { estado.detalle = null; render(); };
+  document.querySelectorAll('.pestanas button').forEach(function (b) {
+    b.onclick = function () { estado.pestana = b.dataset.pestana; estado.detalle = null; render(); };
+  });
+
+  // Pestaña Call Center: cuánto pesa Call Center sobre todas las ventas (misma sede y mes)
+  function participacion(totalCC) {
+    var sede = selSede.value;
+    var base = datosMes.ventas.filter(function (r) { return (sede === 'todas' || r[C.sede] === sede) && pasaFecha(r); });
+    var total = suma(base);
+    return { nombre: 'Participación en ventas', valor: total ? (totalCC / total * 100).toLocaleString('es-CO', { maximumFractionDigits: 1 }) + ' %' : '—',
+             nota: 'de ' + corto(total) + ' vendidos en total', ver: null };
+  }
+  cargarMes();
+
+  // Redibuja el gráfico por día al cambiar el tamaño de la ventana
+  var esperaResize;
+  addEventListener('resize', function () {
+    clearTimeout(esperaResize);
+    esperaResize = setTimeout(function () { renderDias(filtrar(datosMes.ventas)); }, 150);
+  });
+
+  // Vuelve a leer los datos cada 10 minutos (la descarga corre cada 2 horas)
+  setTimeout(function () { location.reload(); }, 10 * 60 * 1000);
+})();
+</script>
+</body>
+</html>
