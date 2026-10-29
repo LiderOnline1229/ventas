@@ -106,14 +106,14 @@ button:disabled { cursor: default; opacity: 0.45; }
 .kpi:disabled { opacity: 1; }
 button:hover, select:hover { background: var(--hover); }
 .tema { margin-left: auto; }
-.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; margin-bottom: 16px; }
 .tarjeta {
   background: var(--surface-1); border: 1.5px solid #39ff14; border-radius: 12px; padding: 14px 16px;
   box-shadow: 0 0 8px rgba(57, 255, 20, 0.25);
 }
 .kpi { cursor: pointer; text-align: left; display: block; width: 100%; min-height: 0; }
 .kpi .nombre { color: var(--text-secondary); font-size: 12px; }
-.kpi .valor { font-size: 24px; font-weight: 650; margin-top: 2px; }
+.kpi .valor { font-size: 22px; font-weight: 650; margin-top: 2px; white-space: nowrap; }
 .kpi .nota { color: var(--text-muted); font-size: 12px; margin-top: 2px; }
 .rejilla { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-bottom: 12px; }
 .ancho { grid-column: 1 / -1; }
@@ -279,10 +279,13 @@ tbody tr.clic:hover { background: var(--hover); }
   // ---------- Formatos ----------
   var fmtPeso = new Intl.NumberFormat('es-CO', { style: 'currency', currency: 'COP', maximumFractionDigits: 0 });
   var fmtNum = new Intl.NumberFormat('es-CO');
-  function corto(v) {
+  // Valores en pesos completos, sin abreviar (ej. $ 805.612.345)
+  function corto(v) { return fmtPeso.format(Math.round(v)); }
+  // Solo para el eje del gráfico por día, donde no caben los números completos
+  function eje(v) {
     if (Math.abs(v) >= 1e6) return '$' + (v / 1e6).toLocaleString('es-CO', { maximumFractionDigits: 1 }) + ' M';
     if (Math.abs(v) >= 1e3) return '$' + Math.round(v / 1e3).toLocaleString('es-CO') + ' mil';
-    return fmtPeso.format(v);
+    return v === 0 ? '0' : fmtPeso.format(v);
   }
   var MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
   function nombreMes(m) { var p = m.split('-'); return MESES[+p[1] - 1] + ' ' + p[0]; }
@@ -450,7 +453,7 @@ tbody tr.clic:hover { background: var(--hover); }
     var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="' + W + '" height="' + H + '" style="display:block" role="img" aria-label="Ventas por día en pesos">';
     for (var t = 0; t <= tope + 1; t += paso) {
       s += '<line x1="' + mi + '" x2="' + (W - md) + '" y1="' + y(t) + '" y2="' + y(t) + '" stroke="var(--grid)" stroke-width="1"/>' +
-           '<text x="' + (mi - 8) + '" y="' + (y(t) + 4) + '" text-anchor="end">' + corto(t).replace('$0', '0') + '</text>';
+           '<text x="' + (mi - 8) + '" y="' + (y(t) + 4) + '" text-anchor="end">' + eje(t) + '</text>';
     }
     s += '<line x1="' + mi + '" x2="' + (W - md) + '" y1="' + y(0) + '" y2="' + y(0) + '" stroke="var(--axis)" stroke-width="1"/>';
     porDia.forEach(function (g, i) {
