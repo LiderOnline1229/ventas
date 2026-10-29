@@ -180,6 +180,7 @@ tbody tr.clic:hover { background: var(--hover); }
           <option value="auto">Solo automático / web</option>
         </select>
       </label>
+      <label id="l-asesor" hidden>Asesor <select id="f-asesor"></select></label>
       <div class="cal-caja">
         <label>Días <button type="button" id="f-dias" aria-haspopup="dialog" aria-expanded="false"></button></label>
         <div class="calendario tarjeta" id="calendario" role="dialog" aria-label="Elegir días" hidden></div>
@@ -241,9 +242,9 @@ tbody tr.clic:hover { background: var(--hover); }
   // Columnas de cada fila en datos-dashboard/dashboard-AAAA-MM.js (ver convertir-dashboard.ps1)
   var C = { fecha: 0, sede: 1, tipo: 2, producto: 3, valor: 4, metodo: 5, asesor: 6, estado: 7, subtipo: 8, comprobante: 9, original: 10 };
 
-  // Asesores de Call Center: nombre completo tal como aparece en Fitmewise (mayúsculas y tildes no importan).
-  // Para agregar o quitar a alguien, edita esta lista.
-  var CALL_CENTER = [
+  // Asesores de Call Center: vienen de asesores-call-center.txt (ver convertir-dashboard.ps1);
+  // nombre completo tal como aparece en Fitmewise (mayúsculas y tildes no importan).
+  var CALL_CENTER = (window.SABANA && SABANA.callCenter && SABANA.callCenter.length) ? SABANA.callCenter : [
     'OSCAR DAVID ALFONSO LOPEZ',
     'SERGIO ANDRES VILLAMIZAR BERNAL',
     'TATIANA CAROLINA ORDUZ GOMEZ',
@@ -335,7 +336,10 @@ tbody tr.clic:hover { background: var(--hover); }
 
   function esAuto(r) { return !r[C.asesor]; }
   function pasaCanal(r) {
-    if (estado.pestana === 'callcenter') return esCallCenter(r);
+    if (estado.pestana === 'callcenter') {
+      var quien = selAsesor.value;
+      return quien === 'todos' ? esCallCenter(r) : normalizar(r[C.asesor]) === quien;
+    }
     switch (selCanal.value) {
       case 'sedes':      return !esAuto(r) && !esCallCenter(r);
       case 'asesor':     return !esAuto(r);
@@ -373,6 +377,7 @@ tbody tr.clic:hover { background: var(--hover); }
     var cc = estado.pestana === 'callcenter';
     document.querySelectorAll('.pestanas button').forEach(function (b) { b.setAttribute('aria-selected', String(b.dataset.pestana === estado.pestana)); });
     document.getElementById('l-canal').hidden = cc;
+    document.getElementById('l-asesor').hidden = !cc;
     document.getElementById('leyenda-dias').hidden = cc;
     var v = filtrar(datosMes.ventas), dev = filtrar(datosMes.devoluciones);
     renderKpis(v, dev);
@@ -664,6 +669,13 @@ tbody tr.clic:hover { background: var(--hover); }
   document.addEventListener('click', function () { if (!cal.hidden) cerrarCalendario(); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !cal.hidden) cerrarCalendario(); });
   selCanal.onchange = function () { estado.detalle = null; render(); };
+
+  // Filtro de asesor (pestaña Call Center): todo el equipo o una persona
+  var selAsesor = document.getElementById('f-asesor');
+  selAsesor.innerHTML = '<option value="todos">Todo el Call Center</option>' + CALL_CENTER.slice()
+    .sort(function (a, b) { return normalizar(a) < normalizar(b) ? -1 : 1; })
+    .map(function (n) { return '<option value="' + esc(normalizar(n)) + '">' + esc(capital(n)) + '</option>'; }).join('');
+  selAsesor.onchange = function () { estado.detalle = null; render(); };
   document.querySelectorAll('.pestanas button').forEach(function (b) {
     b.onclick = function () { estado.pestana = b.dataset.pestana; estado.detalle = null; render(); };
   });
