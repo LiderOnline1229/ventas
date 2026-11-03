@@ -1,5 +1,10 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-03 08:58:57","CEIBA 2","Bono de espacio","ACCESS DAY",0,"Gratis","KARINA CORONEL RUEDAS","pagado","","20260005411",""],
+SABANA_MES['2026-11'] = [["2026-11-03 09:34:37","BOULEVARD","Bono de espacio","KIT ANIVERSARIO FP 2026",79900,"Transferencia","MARIA VALENTINA AYALA CURUBO","pagado","","20260004128",""],
+["2026-11-03 09:21:44","CEIBA 2","Cuota","PLAN 10 MESES 2026 + 3 MESES OBSEQUIO OCTUBRE",748999,"Datáfono","KARINA CORONEL RUEDAS","pagado","Primera cuota de siempre","20260005412",""],
+["2026-11-03 09:18:31","CAÑAVERAL","Cuota","Plan Bimestre 2026",180000,"Datáfono","NANCY MARCELA PELAYO AMADO","pagado","Cuota renovada","20260002427",""],
+["2026-11-03 09:04:51","CAÑAVERAL","Bono de espacio","ACCESS DAY",0,"Gratis","MARIA ALEJANDRA SERRANO GOMEZ","pagado","","20260002426",""],
+["2026-11-03 09:03:23","CAÑAVERAL","Cuota","PLAN TRIMESTRE 2026 + 5 OBSEQUIO",530000,"Datáfono","OSCAR M ALBARRACIN","pagado","Primera cuota de siempre","20260002425",""],
+["2026-11-03 08:58:57","CEIBA 2","Bono de espacio","ACCESS DAY",0,"Gratis","KARINA CORONEL RUEDAS","pagado","","20260005411",""],
 ["2026-11-03 08:44:53","PROVENZA","Bono servicio profesional","Valoracion Deportologo",149000,"Datáfono","GABRIELA BALLESTEROS SANTOS","pagado","","20260002818",""],
 ["2026-11-03 08:34:53","BOULEVARD","Cuota","Plan mes corporativo - 90 Abierto y cerrado",0,"Otro","LILIANA SUAREZ","pagado","Cuota renovada","20260004127",""],
 ["2026-11-03 08:31:11","SAN PIO","Cuota","PLAN TRIMESTRE 2026 + 2 OBSEQUIO",380000,"Datáfono","SARA SOFIA URIBE BRAVO","pagado","Primera cuota de siempre","20260004509",""],

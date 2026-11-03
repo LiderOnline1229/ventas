@@ -236,7 +236,8 @@ tbody tr.clic:hover { background: var(--hover); }
 </main>
 <div id="tip" role="tooltip"></div>
 
-<script src="datos-dashboard/dashboard-datos.js" charset="utf-8"></script>
+<!-- La hora en la direccion obliga al navegador a traer la lista de meses nueva (sin ella mostraba la guardada) -->
+<script>document.write('<script src="datos-dashboard/dashboard-datos.js?v=' + Date.now() + '" charset="utf-8"><\/script>');</script>
 <script>
 (function () {
   // Columnas de cada fila en datos-dashboard/dashboard-AAAA-MM.js (ver convertir-dashboard.ps1)
@@ -569,7 +570,7 @@ tbody tr.clic:hover { background: var(--hover); }
     if (window.SABANA_MES && SABANA_MES[mes]) return mostrarMes();
     selMes.disabled = true;
     var s = document.createElement('script');
-    s.src = 'datos-dashboard/dashboard-' + mes + '.js';
+    s.src = 'datos-dashboard/dashboard-' + mes + '.js?v=' + encodeURIComponent(SABANA.generado);
     s.charset = 'utf-8';
     s.onload = function () { selMes.disabled = false; mostrarMes(); };
     s.onerror = function () {
