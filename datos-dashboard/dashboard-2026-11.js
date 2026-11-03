@@ -1,5 +1,6 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-03 16:58:25","PRADO","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO COUNTER",49500,"Tarjeta","JUAN ANDRES MANTILLA","pagado","Primera cuota de siempre","20260003580",""],
+SABANA_MES['2026-11'] = [["2026-11-03 17:00:14","PARQUE CENTRAL","Cuota","PLAN 10 MESES 2026 + 3 MESES OBSEQUIO OCTUBRE",748999,"Datáfono","MARCELA GOMEZ","pagado","Primera cuota de siempre","20260002213",""],
+["2026-11-03 16:58:25","PRADO","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO COUNTER",49500,"Tarjeta","JUAN ANDRES MANTILLA","pagado","Primera cuota de siempre","20260003580",""],
 ["2026-11-03 16:53:24","JARDIN PLAZA","Cuota","Plan Bimestre 2026",180000,"Efectivo","VANESSA MARIA DEL PILAR LATORRE RIVERA","pagado","Primera cuota de siempre","20260003928",""],
 ["2026-11-03 16:51:54","SAN PIO","Bono servicio profesional","Control Fisioterapia",65000,"Otro","MICHELL ANDREA GELVEZ ARIAS","pagado","","20260004525",""],
 ["2026-11-03 16:47:11","PRADO","Bono de espacio","ACCESS 1 DAY",0,"Gratis","ALEJANDRA ALMEIDA ALMEIDA","pagado","","20260003579",""],
