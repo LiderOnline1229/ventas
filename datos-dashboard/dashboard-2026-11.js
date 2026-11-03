@@ -1,5 +1,12 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-03 08:13:37","PRADO","Bono de espacio","ACCESS 1 DAY",0,"Gratis","ERIKA JULIANA BARAJAS SALGADO","pagado","","20260003563",""],
+SABANA_MES['2026-11'] = [["2026-11-03 08:58:57","CEIBA 2","Bono de espacio","ACCESS DAY",0,"Gratis","KARINA CORONEL RUEDAS","pagado","","20260005411",""],
+["2026-11-03 08:44:53","PROVENZA","Bono servicio profesional","Valoracion Deportologo",149000,"Datáfono","GABRIELA BALLESTEROS SANTOS","pagado","","20260002818",""],
+["2026-11-03 08:34:53","BOULEVARD","Cuota","Plan mes corporativo - 90 Abierto y cerrado",0,"Otro","LILIANA SUAREZ","pagado","Cuota renovada","20260004127",""],
+["2026-11-03 08:31:11","SAN PIO","Cuota","PLAN TRIMESTRE 2026 + 2 OBSEQUIO",380000,"Datáfono","SARA SOFIA URIBE BRAVO","pagado","Primera cuota de siempre","20260004509",""],
+["2026-11-03 08:28:19","CEIBA 2","Cuota","Plan Bimestre 2026",180000,"Transferencia","KARINA CORONEL RUEDAS","pagado","Cuota renovada","20260005410",""],
+["2026-11-03 08:18:38","PROVENZA","Bono de espacio","ACCESS DAY 3 CORPORATIVO",0,"Gratis","GABRIELA BALLESTEROS SANTOS","pagado","","20260002817",""],
+["2026-11-03 08:16:08","PRADO","Cuota","Plan Bimestre 2026",180000,"Transferencia","ERIKA JULIANA BARAJAS SALGADO","pagado","Primera cuota de siempre","20260003564",""],
+["2026-11-03 08:13:37","PRADO","Bono de espacio","ACCESS 1 DAY",0,"Gratis","ERIKA JULIANA BARAJAS SALGADO","pagado","","20260003563",""],
 ["2026-11-03 08:07:25","CEIBA 2","Cuota","PLAN TRIMESTRE 2026 + 2 OBSEQUIO",380000,"Transferencia","BREINER FABIAN SANCHEZ GARCIA","pagado","Cuota cambiada","20260005409",""],
 ["2026-11-03 08:07:16","PROVENZA","Cuota","PLAN 10 MESES 2026 + 3 MESES OBSEQUIO OCTUBRE",748999,"Datáfono","GABRIELA BALLESTEROS SANTOS","pagado","Primera cuota de siempre","20260002816",""],
 ["2026-11-03 08:04:26","CEIBA 2","Cuota","PLAN TRIMESTRE 2026 + 2 OBSEQUIO",380000,"Datáfono","BREINER FABIAN SANCHEZ GARCIA","pagado","Primera cuota de siempre","20260005408",""],
