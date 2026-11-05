@@ -1,5 +1,12 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-05 14:45:14","CEIBA 2","Cuota","PLAN BASICO MENSUAL ESTUDIANTES",79600,"Tarjeta","","pagado","Cuota renovada","20260005502",""],
+SABANA_MES['2026-11'] = [["2026-11-05 15:38:26","DE LA CUESTA","Bono de espacio","ACCESS 1 DAY",0,"Gratis","LILIBETH URIBE","pagado","","20260004642",""],
+["2026-11-05 15:32:45","BOULEVARD","Cuota","PLAN BASICO MENSUAL CAMBIO TARJETA",79600,"Tarjeta","JULIAN LEONARDO RUEDA LEON","pagado","Cuota cambiada","20260004233",""],
+["2026-11-05 15:27:45","DE LA CUESTA","Cuota","VACACIONES 2026",0,"Otro","Monica suarez","pagado","Cuota cambiada","20260004641",""],
+["2026-11-05 15:13:38","BOULEVARD","Bono de espacio","ACCESS 1 DAY",0,"Gratis","FREYNMAN DOMINGUEZ","pagado","","20260004232",""],
+["2026-11-05 15:06:15","SAN PIO","Cuota","PLAN MENSUAL",165000,"Transferencia","SARA SOFIA URIBE BRAVO","pagado","Primera cuota de siempre","20260004580",""],
+["2026-11-05 15:03:59","SAN PIO","Bono de espacio","KIT ANIVERSARIO FP 2026",79900,"Transferencia","SARA SOFIA URIBE BRAVO","pagado","","20260004579",""],
+["2026-11-05 15:00:09","PRADO","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Primera cuota de siempre","20260003628",""],
+["2026-11-05 14:45:14","CEIBA 2","Cuota","PLAN BASICO MENSUAL ESTUDIANTES",79600,"Tarjeta","","pagado","Cuota renovada","20260005502",""],
 ["2026-11-05 14:36:20","BOULEVARD","Cuota","Plan mes corporativo - 90 Abierto y cerrado",90000,"Transferencia","LILIANA SUAREZ","pagado","Primera cuota de siempre","20260004231",""],
 ["2026-11-05 14:19:15","CIUDADELA","Bono servicio profesional","Control Fisioterapia",65000,"Efectivo","JOHAN ANDRE SERNA VELASCO","pagado","","20260003196",""],
 ["2026-11-05 13:43:57","PRADO","Cuota","PLAN 10 MESES + 3 OBSEQUIO DUO (no vender)",-690000,"Otro","Monica suarez","devolución","Cuota renovada","20260003626","20260003625 - 05/11/2026"],
