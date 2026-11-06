@@ -1,5 +1,9 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-06 07:32:40","CIUDADELA","Cuota","PLAN FAMILIA",0,"Otro","Nancy Suárez","pagado","Primera cuota de siempre","20260003212",""],
+SABANA_MES['2026-11'] = [["2026-11-06 08:56:43","SAN PIO","Cuota","PLAN SEMESTRE 2026 + 2 MESES OBSEQUIO NUEVOS",690000,"Datáfono","Gerson Andres Triana Romero","pagado","Cuota cambiada","20260004591",""],
+["2026-11-06 08:55:01","SAN PIO","Cuota","VACACIONES 2026",0,"Otro","Gerson Andres Triana Romero","pagado","Primera cuota de siempre","20260004590",""],
+["2026-11-06 07:49:48","PROVENZA","Cuota","PLAN FAMILIA",0,"Otro","Nancy Suárez","pagado","Cuota renovada","20260002860",""],
+["2026-11-06 07:48:13","PROVENZA","Cuota","PLAN FAMILIA",0,"Otro","Nancy Suárez","devolución","Cuota renovada","20260002859","20260002837 - 04/11/2026"],
+["2026-11-06 07:32:40","CIUDADELA","Cuota","PLAN FAMILIA",0,"Otro","Nancy Suárez","pagado","Primera cuota de siempre","20260003212",""],
 ["2026-11-06 07:29:07","CEIBA 2","Cuota","Plan mes corporativo - 70 - CERRADO",70000,"Transferencia","ALEXANDRA MILENA GONZALEZ SUESCUN","pagado","Cuota renovada","20260005521",""],
 ["2026-11-06 07:19:34","DE LA CUESTA","Cuota","PLAN FAMILIA",0,"Otro","Nancy Suárez","pagado","Primera cuota de siempre","20260004651",""],
 ["2026-11-06 07:06:21","JARDIN PLAZA","Bono de espacio","ACCESS DAY",0,"Gratis","ISMAR MERCHAN","pagado","","20260003988",""],
