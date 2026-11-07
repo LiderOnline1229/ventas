@@ -1,5 +1,11 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-07 12:44:34","JARDIN PLAZA","Cuota","Plan mes corporativo - 70 - CERRADO",70,"Datáfono","VANESSA MARIA DEL PILAR LATORRE RIVERA","pagado","Cuota renovada","20260004005",""],
+SABANA_MES['2026-11'] = [["2026-11-07 14:45:59","JARDIN PLAZA","Bono de espacio","Tiquetera 1 Dia",40000,"Datáfono","ISMAR MERCHAN","pagado","","20260004006",""],
+["2026-11-07 14:22:24","BOULEVARD","Cuota","PLAN 10 MESES 2026 NUEVOS + 2 MESES OBSEQUIO",890000,"Transferencia","ANGIE RUBIELA RAMIREZ ALMEIDA","pagado","Primera cuota de siempre","20260004276",""],
+["2026-11-07 13:34:15","PRADO","Bono de espacio","ACCESS 1 DAY",0,"Gratis","ERIKA JULIANA BARAJAS SALGADO","pagado","","20260003657",""],
+["2026-11-07 13:06:59","CEIBA 2","Cuota","Plan semestre corporativo UDES",449875,"Datáfono","ALEXANDRA MILENA GONZALEZ SUESCUN","pagado","Primera cuota de siempre","20260005552",""],
+["2026-11-07 13:00:15","BOULEVARD","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO WEB",99000,"Tarjeta","","pagado","Cuota renovada","20260004275",""],
+["2026-11-07 13:00:14","CIUDADELA","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Cuota renovada","20260003226",""],
+["2026-11-07 12:44:34","JARDIN PLAZA","Cuota","Plan mes corporativo - 70 - CERRADO",70,"Datáfono","VANESSA MARIA DEL PILAR LATORRE RIVERA","pagado","Cuota renovada","20260004005",""],
 ["2026-11-07 12:16:40","PRADO","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Cuota renovada","20260003656",""],
 ["2026-11-07 12:15:57","PROVENZA","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO WEB",99000,"Tarjeta","","pagado","Cuota renovada","20260002869",""],
 ["2026-11-07 12:15:56","BOULEVARD","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Cuota renovada","20260004274",""],
