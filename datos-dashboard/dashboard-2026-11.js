@@ -1,5 +1,10 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-10 08:59:47","DE LA CUESTA","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Transferencia","OSCAR M ALBARRACIN","pagado","Primera cuota de siempre","20260004704",""],
+SABANA_MES['2026-11'] = [["2026-11-10 09:00:47","CEIBA 2","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","BREINER FABIAN SANCHEZ GARCIA","pagado","Cuota cambiada","20260005613",""],
+["2026-11-10 09:00:41","PROVENZA","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO WEB",99000,"Tarjeta","","pagado","Cuota renovada","20260002905",""],
+["2026-11-10 09:00:28","CEIBA 2","Cuota","PLAN BASICO MENSUAL ESTUDIANTES",79600,"Tarjeta","","pagado","Cuota renovada","20260005612",""],
+["2026-11-10 09:00:21","BOULEVARD","Bono de espacio","KIT ANIVERSARIO FP 2026",79900,"Transferencia","MARIA VALENTINA AYALA CURUBO","pagado","","20260004332",""],
+["2026-11-10 09:00:16","PRADO","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO WEB",99000,"Tarjeta","","pagado","Cuota renovada","20260003695",""],
+["2026-11-10 08:59:47","DE LA CUESTA","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Transferencia","OSCAR M ALBARRACIN","pagado","Primera cuota de siempre","20260004704",""],
 ["2026-11-10 08:59:12","SAN PIO","Bono de espacio","ACCESS DAY",0,"Gratis","SARA SOFIA URIBE BRAVO","pagado","","20260004669",""],
 ["2026-11-10 08:57:48","BOULEVARD","Cuota","PLAN 9 MESES OBSEQUIO 3 MESES (Boulevard, Parque Central, Cañaveral)",645000,"Transferencia","TATIANA CAROLINA ORDUZ GOMEZ","pagado","Primera cuota de siempre","20260004331",""],
 ["2026-11-10 08:55:04","PROVENZA","Bono de espacio","KIT ANIVERSARIO FP 2026",79900,"Efectivo","GABRIELA BALLESTEROS SANTOS","pagado","","20260002904",""],
