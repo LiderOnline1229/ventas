@@ -1,5 +1,10 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-11 12:47:16","DE LA CUESTA","Bono de espacio","KIT ANIVERSARIO FP 2026",79900,"Transferencia","OSCAR M ALBARRACIN","pagado","","20260004727",""],
+SABANA_MES['2026-11'] = [["2026-11-11 14:50:27","PRADO","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO COUNTER",9900,"Tarjeta","Marlon Stiven Gelves Carrillo","pagado","Primera cuota de siempre","20260003727",""],
+["2026-11-11 14:44:00","CEIBA 2","Cuota","PLAN MES A MES Debito  automatico",165000,"Transferencia","Yender Edgardo Ropero León","pagado","Primera cuota de siempre","20260005647",""],
+["2026-11-11 14:36:26","PRADO","Bono de espacio","ACCESS 1 DAY",0,"Gratis","Marlon Stiven Gelves Carrillo","pagado","","20260003726",""],
+["2026-11-11 14:13:22","DE LA CUESTA","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","CAREN DAYANNA PRADA","pagado","Primera cuota de siempre","20260004728",""],
+["2026-11-11 13:03:07","CEIBA 2","Cuota","Plan mes corporativo - 70 - CERRADO",70000,"Transferencia","BREINER FABIAN SANCHEZ GARCIA","pagado","Primera cuota de siempre","20260005646",""],
+["2026-11-11 12:47:16","DE LA CUESTA","Bono de espacio","KIT ANIVERSARIO FP 2026",79900,"Transferencia","OSCAR M ALBARRACIN","pagado","","20260004727",""],
 ["2026-11-11 12:42:32","BOULEVARD","Bono de espacio","ACCESS 1 DAY",0,"Gratis","TATIANA CAROLINA ORDUZ GOMEZ","pagado","","20260004389",""],
 ["2026-11-11 12:38:43","BOULEVARD","Bono de espacio","ACCESS 1 DAY",0,"Gratis","TATIANA CAROLINA ORDUZ GOMEZ","pagado","","20260004388",""],
 ["2026-11-11 12:30:04","PROVENZA","Cuota","PLAN BASICO MENSUAL ESTUDIANTES",79600,"Tarjeta","","pagado","Cuota renovada","20260002941",""],
