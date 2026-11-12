@@ -1,5 +1,10 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-12 07:23:28","JARDIN PLAZA","Bono de espacio","ACCESS DAY",1,"Efectivo","Yender Edgardo Ropero León","pagado","","20260004091",""],
+SABANA_MES['2026-11'] = [["2026-11-12 08:47:42","SAN PIO","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","MARIA PACHECO","pagado","Cuota renovada","20260004705",""],
+["2026-11-12 08:44:08","SAN PIO","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","MARIA PACHECO","pagado","Cuota renovada","20260004704",""],
+["2026-11-12 08:40:27","DE LA CUESTA","Cuota","PLAN SEMESTRE 2026 + 2 MESES OBSEQUIO RENOVADOS",590019,"Datáfono","OSCAR M ALBARRACIN","pagado","Primera cuota de siempre","20260004755",""],
+["2026-11-12 08:16:30","CEIBA 2","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Transferencia","BREINER FABIAN SANCHEZ GARCIA","pagado","Cuota cambiada","20260005663",""],
+["2026-11-12 08:00:28","CIUDADELA","Cuota","PLAN MES",165000,"Efectivo","JOHAN ANDRE SERNA VELASCO","pagado","Primera cuota de siempre","20260003273",""],
+["2026-11-12 07:23:28","JARDIN PLAZA","Bono de espacio","ACCESS DAY",1,"Efectivo","Yender Edgardo Ropero León","pagado","","20260004091",""],
 ["2026-11-05 00:00:00","DE LA CUESTA","Cuota","PLAN SEMESTRE 2026 + 2 MESES OBSEQUIO RENOVADOS",690000,"Transferencia","Monica suarez","pagado","Cuota cambiada","20260004754",""],
 ["2026-11-05 00:00:00","DE LA CUESTA","Cuota","VACACIONES 2026",0,"Otro","Monica suarez","pagado","Cuota cambiada","20260004753",""],
 ["2026-11-12 00:36:51","SAN PIO","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Cuota renovada","20260004703",""],
