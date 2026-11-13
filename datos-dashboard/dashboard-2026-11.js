@@ -1,5 +1,6 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-13 12:57:05","CAÑAVERAL","Cuota","PLAN MENSUAL",165000,"Datáfono","ERIKA JULIANA BARAJAS SALGADO","pagado","Primera cuota de siempre","20260002524",""],
+SABANA_MES['2026-11'] = [["2026-11-13 13:02:26","CEIBA 2","Cuota","PLAN 10 MESES 2026 RENOVADOS + 2 MESES OBSEQUIO",790053,"Transferencia","BREINER FABIAN SANCHEZ GARCIA","pagado","Primera cuota de siempre","20260005687",""],
+["2026-11-13 12:57:05","CAÑAVERAL","Cuota","PLAN MENSUAL",165000,"Datáfono","ERIKA JULIANA BARAJAS SALGADO","pagado","Primera cuota de siempre","20260002524",""],
 ["2026-11-13 12:25:48","PARQUE CENTRAL","Bono de espacio","ACCESS 1 DAY",0,"Gratis","JUAN SEBASTIAN MANTILLA CHAPARRO","pagado","","20260002305",""],
 ["2026-11-13 12:24:30","DE LA CUESTA","Cuota","PLAN SEMESTRE 2026 + 2 MESES OBSEQUIO RENOVADOS",690000,"Datáfono","OSCAR M ALBARRACIN","pagado","Primera cuota de siempre","20260004764",""],
 ["2026-11-13 12:16:53","SAN PIO","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Primera cuota de siempre","20260004716",""],
