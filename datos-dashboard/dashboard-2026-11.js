@@ -1,5 +1,6 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-13 08:59:33","JARDIN PLAZA","Cuota","PLAN SEMESTRE 2026 + 2 MESES OBSEQUIO RENOVADOS",590019,"Efectivo","MARIA NATALY RAMIREZ DELGADO","pagado","Primera cuota de siempre","20260004107",""],
+SABANA_MES['2026-11'] = [["2026-11-13 09:21:13","SAN PIO","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","Gerson Andres Triana Romero","pagado","Primera cuota de siempre","20260004712",""],
+["2026-11-13 08:59:33","JARDIN PLAZA","Cuota","PLAN SEMESTRE 2026 + 2 MESES OBSEQUIO RENOVADOS",590019,"Efectivo","MARIA NATALY RAMIREZ DELGADO","pagado","Primera cuota de siempre","20260004107",""],
 ["2026-11-13 08:58:31","JARDIN PLAZA","Cuota","PLAN SEMESTRE 2026 + 2 MESES OBSEQUIO RENOVADOS",590019,"Datáfono","VANESSA MARIA DEL PILAR LATORRE RIVERA","pagado","Cuota cambiada","20260004106",""],
 ["2026-11-13 08:45:35","CEIBA 2","Bono de espacio","ACCESS DAY",0,"Gratis","ALEXANDRA MILENA GONZALEZ SUESCUN","pagado","","20260005684",""],
 ["2026-11-13 08:15:10","CIUDADELA","Bono servicio profesional","Entrenamiento Semi Personalizado 12 sesiones",390000,"Efectivo","JOHAN ANDRE SERNA VELASCO","pagado","","20260003284",""],
