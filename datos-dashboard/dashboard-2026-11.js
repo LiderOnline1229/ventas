@@ -1,5 +1,7 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-13 14:21:55","CEIBA 2","Bono de espacio","ACCESS DAY",0,"Gratis","Yender Edgardo Ropero León","pagado","","20260005689",""],
+SABANA_MES['2026-11'] = [["2026-11-13 14:46:30","CEIBA 2","Cuota","Plan Vuelve a Entrenar $9900 (No vender)",89900,"Tarjeta","ALEXANDER BASTOS SUÁREZ","pagado","Cuota renovada","20260005690",""],
+["2026-11-13 14:45:12","SAN PIO","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO COUNTER",99000,"Tarjeta","","pagado","Cuota renovada","20260004719",""],
+["2026-11-13 14:21:55","CEIBA 2","Bono de espacio","ACCESS DAY",0,"Gratis","Yender Edgardo Ropero León","pagado","","20260005689",""],
 ["2026-11-13 14:17:01","DE LA CUESTA","Bono servicio profesional","RETIRO DEBITO AUTOMATICO",190000,"Transferencia","ANGIE BERNAL","pagado","","20260004765",""],
 ["2026-11-13 14:16:33","SAN PIO","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Transferencia","TATIANA CAROLINA ORDUZ GOMEZ","pagado","Primera cuota de siempre","20260004718",""],
 ["2026-11-13 14:02:03","JARDIN PLAZA","Cuota","PLAN 10 MESES 2026 RENOVADOS + 2 MESES OBSEQUIO",790053,"Transferencia","DANIMAR  MONCADA","pagado","Primera cuota de siempre","20260004111",""],
