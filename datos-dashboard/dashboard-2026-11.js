@@ -1,5 +1,8 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-14 08:42:51","DE LA CUESTA","Bono de espacio","ACCESS 1 DAY",0,"Gratis","LILIBETH URIBE","pagado","","20260004790",""],
+SABANA_MES['2026-11'] = [["2026-11-14 08:57:36","CIUDADELA","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","Cristian Manuel Navas","pagado","Cuota renovada","20260003305",""],
+["2026-11-14 08:54:13","PROVENZA","Bono de espacio","CORTESIA 1 SEMANA",0,"Gratis","Monica suarez","pagado","","20260002964",""],
+["2026-11-14 08:45:45","DE LA CUESTA","Bono de espacio","ACCESS 1 DAY",0,"Gratis","LILIBETH URIBE","pagado","","20260004791",""],
+["2026-11-14 08:42:51","DE LA CUESTA","Bono de espacio","ACCESS 1 DAY",0,"Gratis","LILIBETH URIBE","pagado","","20260004790",""],
 ["2026-11-14 08:36:28","JARDIN PLAZA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Datáfono","KARINA CORONEL RUEDAS","pagado","Primera cuota de siempre","20260004120",""],
 ["2026-11-14 08:07:46","CEIBA 2","Bono de espacio","ACCESS DAY",0,"Gratis","KARINA CORONEL RUEDAS","pagado","","20260005703",""],
 ["2026-11-14 07:34:55","DE LA CUESTA","Bono de espacio","ACCESS 1 DAY",0,"Gratis","LILIBETH URIBE","pagado","","20260004789",""],
