@@ -1,5 +1,10 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-17 09:00:06","CEIBA 2","Cuota","PLAN BASICO MENSUAL ESTUDIANTES",79600,"Tarjeta","","pagado","Cuota renovada","20260005766",""],
+SABANA_MES['2026-11'] = [["2026-11-17 09:14:13","CEIBA 2","Cuota","PLAN MENSUAL",165000,"Transferencia","KARINA CORONEL RUEDAS","pagado","Primera cuota de siempre","20260005769",""],
+["2026-11-17 09:08:03","CEIBA 2","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","BREINER FABIAN SANCHEZ GARCIA","pagado","Cuota cambiada","20260005768",""],
+["2026-11-17 09:05:29","CEIBA 2","Cuota","Plan semestre corporativo",398250,"Transferencia","BREINER FABIAN SANCHEZ GARCIA","pagado","Primera cuota de siempre","20260005767",""],
+["2026-11-17 09:03:00","PRADO","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Datáfono","Marlon Stiven Gelves Carrillo","pagado","Primera cuota de siempre","20260003797",""],
+["2026-11-17 09:01:54","PROVENZA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Transferencia","BREINER FABIAN SANCHEZ GARCIA","pagado","Primera cuota de siempre","20260002990",""],
+["2026-11-17 09:00:06","CEIBA 2","Cuota","PLAN BASICO MENSUAL ESTUDIANTES",79600,"Tarjeta","","pagado","Cuota renovada","20260005766",""],
 ["2026-11-17 08:55:24","DE LA CUESTA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Transferencia","LILIBETH URIBE","pagado","Primera cuota de siempre","20260004830",""],
 ["2026-11-17 08:45:14","PARQUE CENTRAL","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Cuota renovada","20260002328",""],
 ["2026-11-17 08:40:08","CEIBA 2","Bono de espacio","ACCESS DAY",0,"Gratis","Yender Edgardo Ropero León","pagado","","20260005765",""],
