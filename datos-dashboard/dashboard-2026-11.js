@@ -1,5 +1,8 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-17 12:53:07","SAN PIO","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","JURLEY PAOLA RIVEROS MEZA","pagado","Cuota renovada","20260004786",""],
+SABANA_MES['2026-11'] = [["2026-11-17 13:30:16","PROVENZA","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO WEB",99000,"Tarjeta","","pagado","Cuota renovada","20260003000",""],
+["2026-11-17 13:25:17","PROVENZA","Cuota","PLAN 10 MESES 2026 RENOVADOS + 2 MESES OBSEQUIO",890000,"Transferencia","TATIANA CAROLINA ORDUZ GOMEZ","pagado","Primera cuota de siempre","20260002999",""],
+["2026-11-17 13:15:31","CAÑAVERAL","Cuota","Plan Bimestre 2026 (no vender)",180000,"Otro","TATIANA CAROLINA ORDUZ GOMEZ","pagado","Cuota cambiada","20260002564",""],
+["2026-11-17 12:53:07","SAN PIO","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","JURLEY PAOLA RIVEROS MEZA","pagado","Cuota renovada","20260004786",""],
 ["2026-11-17 12:45:31","CEIBA 2","Cuota","Plan mes corporativo - 70 - CERRADO",70000,"Datáfono","BREINER FABIAN SANCHEZ GARCIA","pagado","Cuota renovada","20260005781",""],
 ["2026-11-17 12:45:10","BOULEVARD","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Cuota renovada","20260004504",""],
 ["2026-11-17 12:43:19","JARDIN PLAZA","Cuota","Plan mes corporativo - 70 - CERRADO",70000,"Transferencia","BREINER FABIAN SANCHEZ GARCIA","pagado","Cuota renovada","20260004161",""],
