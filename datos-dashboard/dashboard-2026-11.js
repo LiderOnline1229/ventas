@@ -1,5 +1,10 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-18 16:12:40","CIUDADELA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",710000,"Transferencia","TATIANA CAROLINA ORDUZ GOMEZ","pagado","Primera cuota de siempre","20260003365",""],
+SABANA_MES['2026-11'] = [["2026-11-18 16:24:27","PRADO","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Transferencia","NATALIA ANDREA RANGEL TORRA","pagado","Primera cuota de siempre","20260003837",""],
+["2026-11-18 16:23:20","BOULEVARD","Cuota","Plan Bimestre 2026 (no vender)",180000,"Transferencia","SERGIO ANDRES VILLAMIZAR BERNAL","pagado","Primera cuota de siempre","20260004551",""],
+["2026-11-18 16:22:38","PRADO","Cuota","Plan Bimestre 2026 (no vender)",180000,"Transferencia","ERIKA JULIANA BARAJAS SALGADO","pagado","Primera cuota de siempre","20260003836",""],
+["2026-11-18 16:20:41","BOULEVARD","Cuota","Plan Bimestre 2026 (no vender)",180000,"Transferencia","SERGIO ANDRES VILLAMIZAR BERNAL","pagado","Primera cuota de siempre","20260004550",""],
+["2026-11-18 16:17:12","PRADO","Bono de espacio","ACCESS 1 DAY",0,"Efectivo","NATALIA ANDREA RANGEL TORRA","pagado","","20260003835",""],
+["2026-11-18 16:12:40","CIUDADELA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",710000,"Transferencia","TATIANA CAROLINA ORDUZ GOMEZ","pagado","Primera cuota de siempre","20260003365",""],
 ["2026-11-18 16:08:26","DE LA CUESTA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Datáfono","SERGIO ANDRES VILLAMIZAR BERNAL","pagado","Primera cuota de siempre","20260004868",""],
 ["2026-11-18 16:00:39","DE LA CUESTA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Datáfono","SERGIO ANDRES VILLAMIZAR BERNAL","pagado","Primera cuota de siempre","20260004867",""],
 ["2026-11-18 15:59:53","JARDIN PLAZA","Bono de espacio","ACCESS DAY",0,"Gratis","DANIMAR  MONCADA","pagado","","20260004203",""],
