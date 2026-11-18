@@ -1,5 +1,9 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-18 12:59:06","CEIBA 2","Cuota","PLAN BASICO MENSUAL ESTUDIANTES",79600,"Tarjeta","BREYNER ESTEBAN  MARTINEZ CARILLO","pagado","Cuota renovada","20260005819",""],
+SABANA_MES['2026-11'] = [["2026-11-18 13:29:37","PARQUE CENTRAL","Bono de espacio","CORTESIA 1 SEMANA",0,"Gratis","JUAN SEBASTIAN MANTILLA CHAPARRO","pagado","","20260002349",""],
+["2026-11-18 13:20:37","PARQUE CENTRAL","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",710000,"Transferencia","JUAN SEBASTIAN MANTILLA CHAPARRO","pagado","Primera cuota de siempre","20260002348",""],
+["2026-11-18 13:15:13","PARQUE CENTRAL","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",710000,"Transferencia","JUAN SEBASTIAN MANTILLA CHAPARRO","pagado","Primera cuota de siempre","20260002347",""],
+["2026-11-18 13:00:12","BOULEVARD","Cuota","PLAN BASICO  MENSUAL ESTUDIANTES",79600,"Tarjeta","","pagado","Cuota renovada","20260004546",""],
+["2026-11-18 12:59:06","CEIBA 2","Cuota","PLAN BASICO MENSUAL ESTUDIANTES",79600,"Tarjeta","BREYNER ESTEBAN  MARTINEZ CARILLO","pagado","Cuota renovada","20260005819",""],
 ["2026-11-18 12:40:38","SAN PIO","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Otro","NATHALY REYES ORTIZ","pagado","Primera cuota de siempre","20260004824",""],
 ["2026-11-18 12:36:42","SAN PIO","Bono servicio profesional","Entrenamiento personalizado 8 sesiones",410000,"Otro","NATHALY REYES ORTIZ","pagado","","20260004823",""],
 ["2026-11-18 12:36:18","JARDIN PLAZA","Cuota","Plan semestre corporativo",398250,"Efectivo","MARIA NATALY RAMIREZ DELGADO","pagado","Primera cuota de siempre","20260004198",""],
