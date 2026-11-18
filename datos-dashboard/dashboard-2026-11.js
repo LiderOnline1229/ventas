@@ -1,5 +1,11 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-18 08:59:14","PRADO","Bono de espacio","ACCESS 1 DAY",0,"Gratis","Marlon Stiven Gelves Carrillo","pagado","","20260003822",""],
+SABANA_MES['2026-11'] = [["2026-11-18 09:36:23","CEIBA 2","Bono de espacio","ACCESS DAY",0,"Gratis","KARINA CORONEL RUEDAS","pagado","","20260005811",""],
+["2026-11-18 09:26:21","SAN PIO","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",710000,"Transferencia","Gerson Andres Triana Romero","pagado","Primera cuota de siempre","20260004814",""],
+["2026-11-18 09:24:27","CEIBA 2","Bono servicio profesional","Control Fisioterapia",65000,"Transferencia","KARINA CORONEL RUEDAS","pagado","","20260005810",""],
+["2026-11-18 09:17:12","CAÑAVERAL","Cuota","Plan Vuelve a Entrenar $49900 (No vender)",99900,"Tarjeta","VALERIA ANDREA MORENO ALMEIDA","pagado","Cuota renovada","20260002573",""],
+["2026-11-18 09:02:18","CIUDADELA","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","SEBASTIAN SÁNCHEZ CARCAMO","pagado","Cuota renovada","20260003360",""],
+["2026-11-18 09:00:26","SAN PIO","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Transferencia","Gerson Andres Triana Romero","pagado","Primera cuota de siempre","20260004813",""],
+["2026-11-18 08:59:14","PRADO","Bono de espacio","ACCESS 1 DAY",0,"Gratis","Marlon Stiven Gelves Carrillo","pagado","","20260003822",""],
 ["2026-11-18 08:56:39","SAN PIO","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Transferencia","Gerson Andres Triana Romero","pagado","Primera cuota de siempre","20260004812",""],
 ["2026-11-18 08:54:11","CEIBA 2","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","Yender Edgardo Ropero León","pagado","Primera cuota de siempre","20260005809",""],
 ["2026-11-18 08:53:48","DE LA CUESTA","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","ANDREA GOMEZ URIBE","pagado","Primera cuota de siempre","20260004853",""],
