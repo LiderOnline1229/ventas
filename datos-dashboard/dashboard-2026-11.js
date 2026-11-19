@@ -1,5 +1,7 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-19 14:26:37","JARDIN PLAZA","Bono de espacio","ACCESS DAY 3 CORPORATIVO",0,"Gratis","ANA MARIA FLOREZ","pagado","","20260004214",""],
+SABANA_MES['2026-11'] = [["2026-11-19 14:54:49","BOULEVARD","Cuota","Plan mes corporativo - 90 Abierto y cerrado",90000,"Transferencia","LILIANA SUAREZ","pagado","Cuota renovada","20260004565",""],
+["2026-11-19 14:34:45","CEIBA 2","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","BREINER FABIAN SANCHEZ GARCIA","pagado","Primera cuota de siempre","20260005850",""],
+["2026-11-19 14:26:37","JARDIN PLAZA","Bono de espacio","ACCESS DAY 3 CORPORATIVO",0,"Gratis","ANA MARIA FLOREZ","pagado","","20260004214",""],
 ["2026-11-19 14:15:13","CEIBA 2","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Primera cuota de siempre","20260005849",""],
 ["2026-11-19 14:15:13","DE LA CUESTA","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO WEB",99000,"Tarjeta","","pagado","Cuota renovada","20260004893",""],
 ["2026-11-19 14:14:16","CIUDADELA","Cuota","PLAN MES",165000,"Otro","MARIA NATALY RAMIREZ DELGADO","pagado","Primera cuota de siempre","20260003381",""],
