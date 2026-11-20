@@ -1,5 +1,11 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-20 13:17:26","JARDIN PLAZA","Cuota","Plan mes corporativo - 70 - CERRADO",70000,"Datáfono","Yender Edgardo Ropero León","pagado","Cuota renovada","20260004228",""],
+SABANA_MES['2026-11'] = [["2026-11-20 14:50:37","DE LA CUESTA","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Transferencia","SERGIO ANDRES VILLAMIZAR BERNAL","pagado","Primera cuota de siempre","20260004911",""],
+["2026-11-20 14:45:13","CIUDADELA","Cuota","PLAN BASICO MENSUAL CAMBIO TARJETA",79600,"Tarjeta","","pagado","Cuota renovada","20260003395",""],
+["2026-11-20 14:30:15","PARQUE CENTRAL","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO WEB",99000,"Tarjeta","","pagado","Cuota renovada","20260002384",""],
+["2026-11-20 14:29:50","BOULEVARD","Cuota","Plan Anual exclusivo corporativo 590",590000,"Otro","MICHELL ANDREA GELVEZ ARIAS","pagado","Cuota cambiada","20260004607",""],
+["2026-11-20 14:26:09","SAN PIO","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Efectivo","NATHALY REYES ORTIZ","pagado","Cuota cambiada","20260004867",""],
+["2026-11-20 14:15:05","CEIBA 2","Cuota","Plan Easy Web $89000 (No vender)",89000,"Tarjeta","","pagado","Cuota renovada","20260005882",""],
+["2026-11-20 13:17:26","JARDIN PLAZA","Cuota","Plan mes corporativo - 70 - CERRADO",70000,"Datáfono","Yender Edgardo Ropero León","pagado","Cuota renovada","20260004228",""],
 ["2026-11-20 13:08:35","CEIBA 2","Bono de espacio","ACCESS DAY 3 CORPORATIVO",0,"Gratis","ANA MARIA FLOREZ","pagado","","20260005881",""],
 ["2026-11-20 13:03:03","PROVENZA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Transferencia","GABRIELA BALLESTEROS SANTOS","pagado","Primera cuota de siempre","20260003029",""],
 ["2026-11-20 12:45:04","SAN PIO","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","NATHALY REYES ORTIZ","pagado","Primera cuota de siempre","20260004866",""],
