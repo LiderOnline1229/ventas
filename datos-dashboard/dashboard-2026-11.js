@@ -1,5 +1,10 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-20 16:32:27","PARQUE CENTRAL","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Transferencia","MARCELA GOMEZ","pagado","Cuota cambiada","20260002386",""],
+SABANA_MES['2026-11'] = [["2026-11-20 17:00:03","DE LA CUESTA","Cuota","PLAN MENSUAL",165000,"Transferencia","LILIBETH URIBE","pagado","Primera cuota de siempre","20260004918",""],
+["2026-11-20 16:53:19","SAN PIO","Cuota","PLAN BASICO MENSUAL ESTUDIANTES",-79600,"Tarjeta","","devolución","Cuota renovada","20260004869","20260004860 - 20/11/2026"],
+["2026-11-20 16:46:08","BOULEVARD","Cuota","Plan Anual exclusivo corporativo 590",0,"Otro","MICHELL ANDREA GELVEZ ARIAS","pagado","Primera cuota de siempre","20260004612",""],
+["2026-11-20 16:42:42","CIUDADELA","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Otro","JULIAN LEONARDO RUEDA LEON","pagado","Cuota cambiada","20260003396",""],
+["2026-11-20 16:40:00","BOULEVARD","Cuota","Plan Anual exclusivo corporativo 590",0,"Otro","MICHELL ANDREA GELVEZ ARIAS","pagado","Primera cuota de siempre","20260004611",""],
+["2026-11-20 16:32:27","PARQUE CENTRAL","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Transferencia","MARCELA GOMEZ","pagado","Cuota cambiada","20260002386",""],
 ["2026-11-20 16:25:40","PARQUE CENTRAL","Cuota","PLAN FAMILIA",0,"Otro","Monica suarez","pagado","Primera cuota de siempre","20260002385",""],
 ["2026-11-20 16:19:46","DE LA CUESTA","Bono de espacio","ACCESS 1 DAY",0,"Gratis","LILIBETH URIBE","pagado","","20260004917",""],
 ["2026-11-20 16:18:59","PRADO","Bono de espacio","ACCESS 1 DAY",0,"Efectivo","NATALIA ANDREA RANGEL TORRA","pagado","","20260003878",""],
