@@ -1,5 +1,7 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-20 17:23:19","SAN PIO","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","Oscar Mauricio Jaimes caballero","pagado","Cuota renovada","20260004873",""],
+SABANA_MES['2026-11'] = [["2026-11-20 17:31:44","JARDIN PLAZA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Datáfono","DANIMAR  MONCADA","pagado","Primera cuota de siempre","20260004233",""],
+["2026-11-20 17:31:27","BOULEVARD","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Transferencia","DANICA ANDREA GARCIA MONTERO","pagado","Primera cuota de siempre","20260004614",""],
+["2026-11-20 17:23:19","SAN PIO","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","Oscar Mauricio Jaimes caballero","pagado","Cuota renovada","20260004873",""],
 ["2026-11-20 17:22:02","CIUDADELA","Bono servicio profesional","Entrenamiento personalizado 12 sesiones",490000,"Transferencia","JOHAN ANDRE SERNA VELASCO","pagado","","20260003398",""],
 ["2026-11-20 17:19:39","SAN PIO","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Datáfono","SARA SOFIA URIBE BRAVO","pagado","Primera cuota de siempre","20260004872",""],
 ["2026-11-20 17:14:24","CIUDADELA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",710000,"Datáfono","TATIANA CAROLINA ORDUZ GOMEZ","pagado","Primera cuota de siempre","20260003397",""],
