@@ -1,5 +1,8 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-20 12:45:04","SAN PIO","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","NATHALY REYES ORTIZ","pagado","Primera cuota de siempre","20260004866",""],
+SABANA_MES['2026-11'] = [["2026-11-20 13:17:26","JARDIN PLAZA","Cuota","Plan mes corporativo - 70 - CERRADO",70000,"Datáfono","Yender Edgardo Ropero León","pagado","Cuota renovada","20260004228",""],
+["2026-11-20 13:08:35","CEIBA 2","Bono de espacio","ACCESS DAY 3 CORPORATIVO",0,"Gratis","ANA MARIA FLOREZ","pagado","","20260005881",""],
+["2026-11-20 13:03:03","PROVENZA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Transferencia","GABRIELA BALLESTEROS SANTOS","pagado","Primera cuota de siempre","20260003029",""],
+["2026-11-20 12:45:04","SAN PIO","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","NATHALY REYES ORTIZ","pagado","Primera cuota de siempre","20260004866",""],
 ["2026-11-20 12:24:36","BOULEVARD","Bono de espacio","ACCESS 1 DAY",0,"Efectivo","NATALIA ANDREA RANGEL TORRA","pagado","","20260004606",""],
 ["2026-11-20 12:16:31","PRADO","Bono de espacio","ACCESS 1 DAY",0,"Gratis","Marlon Stiven Gelves Carrillo","pagado","","20260003875",""],
 ["2026-11-20 12:11:13","BOULEVARD","Bono de espacio","ACCESS 1 DAY",0,"Gratis","DANICA ANDREA GARCIA MONTERO","pagado","","20260004605",""],
