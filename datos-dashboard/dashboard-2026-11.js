@@ -1,5 +1,7 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-20 14:50:37","DE LA CUESTA","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Transferencia","SERGIO ANDRES VILLAMIZAR BERNAL","pagado","Primera cuota de siempre","20260004911",""],
+SABANA_MES['2026-11'] = [["2026-11-20 15:02:23","CEIBA 2","Bono de espacio","Tiquetera 8",84000,"Datáfono","Yender Edgardo Ropero León","pagado","","20260005883",""],
+["2026-11-20 15:01:26","JARDIN PLAZA","Bono de espacio","Tiquetera 1 Dia",40000,"Datáfono","MARIA NATALY RAMIREZ DELGADO","pagado","","20260004229",""],
+["2026-11-20 14:50:37","DE LA CUESTA","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Transferencia","SERGIO ANDRES VILLAMIZAR BERNAL","pagado","Primera cuota de siempre","20260004911",""],
 ["2026-11-20 14:45:13","CIUDADELA","Cuota","PLAN BASICO MENSUAL CAMBIO TARJETA",79600,"Tarjeta","","pagado","Cuota renovada","20260003395",""],
 ["2026-11-20 14:30:15","PARQUE CENTRAL","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO WEB",99000,"Tarjeta","","pagado","Cuota renovada","20260002384",""],
 ["2026-11-20 14:29:50","BOULEVARD","Cuota","Plan Anual exclusivo corporativo 590",590000,"Otro","MICHELL ANDREA GELVEZ ARIAS","pagado","Cuota cambiada","20260004607",""],
