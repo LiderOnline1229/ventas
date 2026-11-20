@@ -1,5 +1,12 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-20 17:00:03","DE LA CUESTA","Cuota","PLAN MENSUAL",165000,"Transferencia","LILIBETH URIBE","pagado","Primera cuota de siempre","20260004918",""],
+SABANA_MES['2026-11'] = [["2026-11-20 17:23:19","SAN PIO","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","Oscar Mauricio Jaimes caballero","pagado","Cuota renovada","20260004873",""],
+["2026-11-20 17:22:02","CIUDADELA","Bono servicio profesional","Entrenamiento personalizado 12 sesiones",490000,"Transferencia","JOHAN ANDRE SERNA VELASCO","pagado","","20260003398",""],
+["2026-11-20 17:19:39","SAN PIO","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Datáfono","SARA SOFIA URIBE BRAVO","pagado","Primera cuota de siempre","20260004872",""],
+["2026-11-20 17:14:24","CIUDADELA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",710000,"Datáfono","TATIANA CAROLINA ORDUZ GOMEZ","pagado","Primera cuota de siempre","20260003397",""],
+["2026-11-20 17:08:24","SAN PIO","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","Oscar Mauricio Jaimes caballero","pagado","Cuota renovada","20260004871",""],
+["2026-11-20 17:07:45","BOULEVARD","Bono servicio profesional","Valoracion Deportologo",149000,"Efectivo","DANICA ANDREA GARCIA MONTERO","pagado","","20260004613",""],
+["2026-11-20 17:01:43","SAN PIO","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO WEB",99000,"Tarjeta","","pagado","Cuota renovada","20260004870",""],
+["2026-11-20 17:00:03","DE LA CUESTA","Cuota","PLAN MENSUAL",165000,"Transferencia","LILIBETH URIBE","pagado","Primera cuota de siempre","20260004918",""],
 ["2026-11-20 16:53:19","SAN PIO","Cuota","PLAN BASICO MENSUAL ESTUDIANTES",-79600,"Tarjeta","","devolución","Cuota renovada","20260004869","20260004860 - 20/11/2026"],
 ["2026-11-20 16:46:08","BOULEVARD","Cuota","Plan Anual exclusivo corporativo 590",0,"Otro","MICHELL ANDREA GELVEZ ARIAS","pagado","Primera cuota de siempre","20260004612",""],
 ["2026-11-20 16:42:42","CIUDADELA","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Otro","JULIAN LEONARDO RUEDA LEON","pagado","Cuota cambiada","20260003396",""],
