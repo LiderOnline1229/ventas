@@ -1,5 +1,12 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-23 12:54:01","CIUDADELA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Transferencia","JOHAN ANDRE SERNA VELASCO","pagado","Primera cuota de siempre","20260003423",""],
+SABANA_MES['2026-11'] = [["2026-11-23 13:51:11","PRADO","Bono de espacio","ACCESS 1 DAY",0,"Gratis","ERIKA JULIANA BARAJAS SALGADO","pagado","","20260003909",""],
+["2026-11-23 13:45:40","PRADO","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","JURLEY PAOLA RIVEROS MEZA","pagado","Cuota cambiada","20260003908",""],
+["2026-11-23 13:43:20","JARDIN PLAZA","Cuota","Plan mes corporativo - 70 - CERRADO",70000,"Transferencia","DANIMAR  MONCADA","pagado","Cuota renovada","20260004268",""],
+["2026-11-23 13:34:41","CIUDADELA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Transferencia","JOHAN ANDRE SERNA VELASCO","pagado","Primera cuota de siempre","20260003424",""],
+["2026-11-23 13:33:48","DE LA CUESTA","Bono de espacio","ACCESS 1 DAY",0,"Gratis","LILIBETH URIBE","pagado","","20260004954",""],
+["2026-11-23 13:29:12","JARDIN PLAZA","Cuota","Plan mes corporativo - 70 - CERRADO",70000,"Datáfono","VANESSA MARIA DEL PILAR LATORRE RIVERA","pagado","Cuota renovada","20260004267",""],
+["2026-11-23 13:24:50","CEIBA 2","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Datáfono","KARINA CORONEL RUEDAS","pagado","Primera cuota de siempre","20260005934",""],
+["2026-11-23 12:54:01","CIUDADELA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Transferencia","JOHAN ANDRE SERNA VELASCO","pagado","Primera cuota de siempre","20260003423",""],
 ["2026-11-23 12:49:35","DE LA CUESTA","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","LILIBETH URIBE","pagado","Primera cuota de siempre","20260004953",""],
 ["2026-11-23 12:46:30","SAN PIO","Bono de espacio","ACCESS 3 DAY CORPORATIVO",0,"Gratis","KAREN DANIELA CASTILLO SUAREZ","pagado","","20260004910",""],
 ["2026-11-23 12:40:31","DE LA CUESTA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Datáfono","LILIBETH URIBE","pagado","Cuota cambiada","20260004952",""],
