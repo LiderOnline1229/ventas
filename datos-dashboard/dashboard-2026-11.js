@@ -1,5 +1,6 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-24 16:33:38","PROVENZA","Bono de espacio","ACCESS DAY 3 CORPORATIVO",0,"Gratis","ANA MARIA FLOREZ","pagado","","20260003055",""],
+SABANA_MES['2026-11'] = [["2026-11-24 16:57:30","PRADO","Bono de espacio","ACCESS 1 DAY",0,"Gratis","ERIKA JULIANA BARAJAS SALGADO","pagado","","20260003939",""],
+["2026-11-24 16:33:38","PROVENZA","Bono de espacio","ACCESS DAY 3 CORPORATIVO",0,"Gratis","ANA MARIA FLOREZ","pagado","","20260003055",""],
 ["2026-11-24 16:26:41","JARDIN PLAZA","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","MARIA NATALY RAMIREZ DELGADO","pagado","Primera cuota de siempre","20260004290",""],
 ["2026-11-24 16:24:08","PARQUE CENTRAL","Bono de espacio","CORTESIA 1 SEMANA",0,"Gratis","JUAN SEBASTIAN MANTILLA CHAPARRO","pagado","","20260002421",""],
 ["2026-11-24 16:22:41","PARQUE CENTRAL","Cuota","PLAN 9 MESES OBSEQUIO 3 MESES (Boulevard, Parque Central, Cañaveral)",645000,"Transferencia","JUAN SEBASTIAN MANTILLA CHAPARRO","pagado","Primera cuota de siempre","20260002420",""],
