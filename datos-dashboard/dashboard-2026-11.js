@@ -1,5 +1,11 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-24 07:48:17","JARDIN PLAZA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Datáfono","MARIA NATALY RAMIREZ DELGADO","pagado","Primera cuota de siempre","20260004278",""],
+SABANA_MES['2026-11'] = [["2026-11-24 08:53:20","CEIBA 2","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Datáfono","BREINER FABIAN SANCHEZ GARCIA","pagado","Primera cuota de siempre","20260005957",""],
+["2026-11-24 08:52:28","JARDIN PLAZA","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","JURLEY PAOLA RIVEROS MEZA","pagado","Cuota cambiada","20260004280",""],
+["2026-11-24 08:50:09","SAN PIO","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Efectivo","JORGE  IVAN VALDE","pagado","Primera cuota de siempre","20260004927",""],
+["2026-11-24 08:37:52","CAÑAVERAL","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO COUNTER",9900,"Tarjeta","JHON ALEXANDER GUARIN CORREDOR","pagado","Primera cuota de siempre","20260002604",""],
+["2026-11-24 08:36:32","JARDIN PLAZA","Cuota","Plan mes corporativo - 70 - CERRADO",70000,"Transferencia","Yender Edgardo Ropero León","pagado","Cuota renovada","20260004279",""],
+["2026-11-24 07:53:28","CEIBA 2","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Datáfono","BREINER FABIAN SANCHEZ GARCIA","pagado","Primera cuota de siempre","20260005956",""],
+["2026-11-24 07:48:17","JARDIN PLAZA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Datáfono","MARIA NATALY RAMIREZ DELGADO","pagado","Primera cuota de siempre","20260004278",""],
 ["2026-11-24 07:35:46","JARDIN PLAZA","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","MARIA NATALY RAMIREZ DELGADO","pagado","Primera cuota de siempre","20260004277",""],
 ["2026-11-24 07:05:28","CEIBA 2","Bono servicio profesional","Valoracion Deportologo",149000,"Datáfono","BREINER FABIAN SANCHEZ GARCIA","pagado","","20260005955",""],
 ["2026-11-24 06:39:07","PARQUE CENTRAL","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Transferencia","Marlon Stiven Gelves Carrillo","pagado","Primera cuota de siempre","20260002412",""],
