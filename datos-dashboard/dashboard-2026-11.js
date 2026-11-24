@@ -1,5 +1,10 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-24 10:16:28","DE LA CUESTA","Bono de espacio","ACCESS DAY 3 CORPORATIVO",0,"Gratis","LILIBETH URIBE","pagado","","20260004972",""],
+SABANA_MES['2026-11'] = [["2026-11-24 10:52:24","CEIBA 2","Bono de espacio","ACCESS DAY",0,"Gratis","KARINA CORONEL RUEDAS","pagado","","20260005961",""],
+["2026-11-24 10:48:16","DE LA CUESTA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",690000,"Datáfono","LILIBETH URIBE","pagado","Primera cuota de siempre","20260004973",""],
+["2026-11-24 10:46:14","BOULEVARD","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Cuota renovada","20260004665",""],
+["2026-11-24 10:33:12","SAN PIO","Bono de espacio","ACCESS 3 DAY CORPORATIVO",0,"Gratis","ANA MARIA FLOREZ","pagado","","20260004929",""],
+["2026-11-24 10:31:58","PARQUE CENTRAL","Cuota","PLAN 9 MESES OBSEQUIO 3 MESES (Boulevard, Parque Central, Cañaveral)",645000,"Efectivo","JUAN SEBASTIAN MANTILLA CHAPARRO","pagado","Primera cuota de siempre","20260002416",""],
+["2026-11-24 10:16:28","DE LA CUESTA","Bono de espacio","ACCESS DAY 3 CORPORATIVO",0,"Gratis","LILIBETH URIBE","pagado","","20260004972",""],
 ["2026-11-24 10:16:22","PARQUE CENTRAL","Bono de espacio","ACCESS 1 DAY",0,"Gratis","JUAN SEBASTIAN MANTILLA CHAPARRO","pagado","","20260002415",""],
 ["2026-11-24 10:14:40","PROVENZA","Bono de espacio","ACCESS DAY 3 CORPORATIVO",0,"Gratis","ANA MARIA FLOREZ","pagado","","20260003051",""],
 ["2026-11-24 10:13:16","CEIBA 2","Cuota","Plan mes corporativo - 70 - CERRADO",70000,"Transferencia","BREINER FABIAN SANCHEZ GARCIA","pagado","Cuota renovada","20260005960",""],
