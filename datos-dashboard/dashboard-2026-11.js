@@ -1,5 +1,7 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-25 12:33:56","PRADO","Cuota","PLAN AÑO IMPARABLE ANIVERSARIO",990000,"Transferencia","SERGIO ANDRES VILLAMIZAR BERNAL","pagado","Primera cuota de siempre","20260003962",""],
+SABANA_MES['2026-11'] = [["2026-11-25 12:48:04","DE LA CUESTA","Bono servicio profesional","Entrenamiento personalizado 20 sesiones",700000,"Transferencia","LILIBETH URIBE","pagado","","20260004995",""],
+["2026-11-25 12:45:27","CIUDADELA","Cuota","PLAN BASICO MENSUAL CAMBIO TARJETA",79600,"Tarjeta","JURLEY PAOLA RIVEROS MEZA","pagado","Cuota renovada","20260003440",""],
+["2026-11-25 12:33:56","PRADO","Cuota","PLAN AÑO IMPARABLE ANIVERSARIO",990000,"Transferencia","SERGIO ANDRES VILLAMIZAR BERNAL","pagado","Primera cuota de siempre","20260003962",""],
 ["2026-11-25 12:26:03","PROVENZA","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Transferencia","JORGE  IVAN VALDE","pagado","Cuota cambiada","20260003065",""],
 ["2026-11-25 12:25:54","PROVENZA","Cuota","Plan Bimestre 2026 (no vender)",180000,"Transferencia","SERGIO ANDRES VILLAMIZAR BERNAL","pagado","Primera cuota de siempre","20260003064",""],
 ["2026-11-25 12:25:40","CEIBA 2","Cuota","Plan semestre corporativo",398250,"Datáfono","Yender Edgardo Ropero León","pagado","Cuota renovada","20260005997",""],
