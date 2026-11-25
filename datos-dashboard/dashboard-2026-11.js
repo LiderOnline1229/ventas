@@ -1,5 +1,11 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-25 07:57:47","PRADO","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO COUNTER",9900,"Tarjeta","ERIKA JULIANA BARAJAS SALGADO","pagado","Primera cuota de siempre","20260003959",""],
+SABANA_MES['2026-11'] = [["2026-11-25 08:51:12","CAÑAVERAL","Bono de espacio","ACCESS DAY 3 CORPORATIVO",0,"Gratis","ANA MARIA FLOREZ","pagado","","20260002610",""],
+["2026-11-25 08:44:35","CEIBA 2","Bono de espacio","ACCESS DAY 3 CORPORATIVO",0,"Gratis","ANA MARIA FLOREZ","pagado","","20260005986",""],
+["2026-11-25 08:37:09","PRADO","Cuota","BLACKDAYS PLAN 6 MESES Y TE OBSEQUIAMOS 3 MESES",590000,"Transferencia","Marlon Stiven Gelves Carrillo","pagado","Primera cuota de siempre","20260003960",""],
+["2026-11-25 08:26:14","PROVENZA","Bono de espacio","Tiquetera 1 Dia",40000,"Transferencia","JORGE  IVAN VALDE","pagado","","20260003063",""],
+["2026-11-25 08:05:35","SAN PIO","Bono de espacio","Tiquetera 14",114000,"Transferencia","Gerson Andres Triana Romero","pagado","","20260004942",""],
+["2026-11-25 08:04:33","DE LA CUESTA","Cuota","PLAN MENSUAL",165000,"Transferencia","LILIBETH URIBE","pagado","Cuota cambiada","20260004992",""],
+["2026-11-25 07:57:47","PRADO","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO COUNTER",9900,"Tarjeta","ERIKA JULIANA BARAJAS SALGADO","pagado","Primera cuota de siempre","20260003959",""],
 ["2026-11-25 07:30:17","PARQUE CENTRAL","Cuota","PLAN 9 MESES OBSEQUIO 3 MESES (Boulevard, Parque Central, Cañaveral)",645000,"Transferencia","JUAN SEBASTIAN MANTILLA CHAPARRO","pagado","Primera cuota de siempre","20260002429",""],
 ["2026-11-25 07:19:17","PROVENZA","Bono de espacio","Tiquetera 1 Dia",40000,"Transferencia","JORGE  IVAN VALDE","pagado","","20260003062",""],
 ["2026-11-25 07:15:50","PARQUE CENTRAL","Bono de espacio","ACCESS 1 DAY",0,"Gratis","JUAN SEBASTIAN MANTILLA CHAPARRO","pagado","","20260002428",""],
