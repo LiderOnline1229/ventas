@@ -1,5 +1,10 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-25 16:58:20","PRADO","Bono de espacio","MEMBRESIA 2026",190000,"Transferencia","ERIKA JULIANA BARAJAS SALGADO","pagado","","20260003968",""],
+SABANA_MES['2026-11'] = [["2026-11-25 17:32:20","PRADO","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","Marlon Stiven Gelves Carrillo","pagado","Cuota cambiada","20260003970",""],
+["2026-11-25 17:17:21","BOULEVARD","Cuota","Plan Bimestre 2026 BOT",180000,"Transferencia","DANICA ANDREA GARCIA MONTERO","pagado","Primera cuota de siempre","20260004694",""],
+["2026-11-25 17:10:50","JARDIN PLAZA","Cuota","Plan mes corporativo - 99 ABIERTO",99000,"Transferencia","MARIA NATALY RAMIREZ DELGADO","pagado","Primera cuota de siempre","20260004307",""],
+["2026-11-25 17:08:28","JARDIN PLAZA","Cuota","Plan mes corporativo - 70 - CERRADO",70000,"Transferencia","MARIA NATALY RAMIREZ DELGADO","pagado","Cuota renovada","20260004306",""],
+["2026-11-25 17:08:03","PRADO","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO COUNTER",9900,"Tarjeta","ERIKA JULIANA BARAJAS SALGADO","pagado","Primera cuota de siempre","20260003969",""],
+["2026-11-25 16:58:20","PRADO","Bono de espacio","MEMBRESIA 2026",190000,"Transferencia","ERIKA JULIANA BARAJAS SALGADO","pagado","","20260003968",""],
 ["2026-11-25 16:51:23","PARQUE CENTRAL","Bono de espacio","ACCESS DAY 3 CORPORATIVO",0,"Gratis","MARCELA GOMEZ","pagado","","20260002441",""],
 ["2026-11-25 16:45:20","PRADO","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Primera cuota de siempre","20260003967",""],
 ["2026-11-25 16:42:02","PARQUE CENTRAL","Bono de espacio","ACCESS DAY 3 CORPORATIVO",0,"Gratis","MARCELA GOMEZ","pagado","","20260002440",""],
