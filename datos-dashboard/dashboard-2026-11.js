@@ -1,5 +1,12 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-26 10:03:04","JARDIN PLAZA","Cuota","PLAN MENSUAL",165000,"Efectivo","VANESSA MARIA DEL PILAR LATORRE RIVERA","pagado","Cuota cambiada","20260004315",""],
+SABANA_MES['2026-11'] = [["2026-11-26 10:58:55","DE LA CUESTA","Bono de espacio","ACCESS 1 DAY",0,"Gratis","LILIBETH URIBE","pagado","","20260005012",""],
+["2026-11-26 10:50:55","CIUDADELA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO + obsequio adicional",690000,"Transferencia","JOHAN ANDRE SERNA VELASCO","pagado","Primera cuota de siempre","20260003449",""],
+["2026-11-26 10:49:15","SAN PIO","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO + obsequio adicional",690000,"Transferencia","JHON ALEXANDER GUARIN CORREDOR","pagado","Primera cuota de siempre","20260004954",""],
+["2026-11-26 10:30:28","BOULEVARD","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Cuota renovada","20260004706",""],
+["2026-11-26 10:24:23","PARQUE CENTRAL","Bono de espacio","ACCESS 1 DAY",0,"Gratis","JUAN SEBASTIAN MANTILLA CHAPARRO","pagado","","20260002449",""],
+["2026-11-26 10:24:03","BOULEVARD","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","MARIA JOSE RAMIREZ SALAMANCA","pagado","Cuota renovada","20260004705",""],
+["2026-11-26 10:17:48","DE LA CUESTA","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Transferencia","Kely xiomara pastran mora","pagado","Primera cuota de siempre","20260005011",""],
+["2026-11-26 10:03:04","JARDIN PLAZA","Cuota","PLAN MENSUAL",165000,"Efectivo","VANESSA MARIA DEL PILAR LATORRE RIVERA","pagado","Cuota cambiada","20260004315",""],
 ["2026-11-26 10:00:16","JARDIN PLAZA","Cuota","PLAN MENSUAL",165000,"Efectivo","VANESSA MARIA DEL PILAR LATORRE RIVERA","pagado","Cuota cambiada","20260004314",""],
 ["2026-11-26 10:00:15","CIUDADELA","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Cuota renovada","20260003448",""],
 ["2026-11-26 09:51:39","PARQUE CENTRAL","Cuota","PLAN MENSUAL",165000,"Transferencia","JUAN SEBASTIAN MANTILLA CHAPARRO","pagado","Cuota cambiada","20260002448",""],
