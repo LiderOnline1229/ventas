@@ -1,5 +1,10 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-26 08:48:55","JARDIN PLAZA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Transferencia","VANESSA MARIA DEL PILAR LATORRE RIVERA","pagado","Primera cuota de siempre","20260004313",""],
+SABANA_MES['2026-11'] = [["2026-11-26 09:31:33","PARQUE CENTRAL","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Transferencia","JUAN SEBASTIAN MANTILLA CHAPARRO","pagado","Primera cuota de siempre","20260002447",""],
+["2026-11-26 09:15:05","PARQUE CENTRAL","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO WEB",99000,"Tarjeta","","pagado","Cuota renovada","20260002446",""],
+["2026-11-24 00:00:00","CEIBA 2","Bono servicio profesional","Valoracion Deportologo",149000,"Transferencia","Mónica Suarez A.","pagado","","20260006013",""],
+["2026-11-26 09:00:16","CAÑAVERAL","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Cuota renovada","20260002613",""],
+["2026-11-26 09:00:15","PRADO","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO WEB",99000,"Tarjeta","","pagado","Cuota renovada","20260003978",""],
+["2026-11-26 08:48:55","JARDIN PLAZA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Transferencia","VANESSA MARIA DEL PILAR LATORRE RIVERA","pagado","Primera cuota de siempre","20260004313",""],
 ["2026-11-26 08:18:28","PARQUE CENTRAL","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","JUAN SEBASTIAN MANTILLA CHAPARRO","pagado","Primera cuota de siempre","20260002445",""],
 ["2026-11-26 08:06:55","BOULEVARD","Cuota","Plan Bimestre 2026",180000,"Transferencia","TATIANA CAROLINA ORDUZ GOMEZ","pagado","Primera cuota de siempre","20260004702",""],
 ["2026-11-26 07:11:51","BOULEVARD","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","Kely xiomara pastran mora","pagado","Primera cuota de siempre","20260004701",""],
