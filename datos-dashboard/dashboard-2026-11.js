@@ -1,5 +1,10 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-26 16:59:45","BOULEVARD","Cuota","Plan Anual exclusivo corporativo 590",590000,"Transferencia","MICHELL ANDREA GELVEZ ARIAS","pagado","Primera cuota de siempre","20260004722",""],
+SABANA_MES['2026-11'] = [["2026-11-26 17:19:15","PRADO","Bono de espacio","ACCESS 1 DAY",0,"Efectivo","NATALIA ANDREA RANGEL TORRA","pagado","","20260003990",""],
+["2026-11-26 17:17:00","CIUDADELA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Efectivo","SERGIO ANDRES VILLAMIZAR BERNAL","pagado","Primera cuota de siempre","20260003461",""],
+["2026-11-26 17:10:50","CEIBA 2","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO + obsequio adicional",690000,"Datáfono","KARINA CORONEL RUEDAS","pagado","Cuota cambiada","20260006019",""],
+["2026-11-26 17:07:16","CIUDADELA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Transferencia","KAREN DANIELA CASTILLO SUAREZ","pagado","Primera cuota de siempre","20260003460",""],
+["2026-11-26 17:04:24","BOULEVARD","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO + obsequio adicional",690000,"Datáfono","ANGIE RUBIELA RAMIREZ ALMEIDA","pagado","Primera cuota de siempre","20260004723",""],
+["2026-11-26 16:59:45","BOULEVARD","Cuota","Plan Anual exclusivo corporativo 590",590000,"Transferencia","MICHELL ANDREA GELVEZ ARIAS","pagado","Primera cuota de siempre","20260004722",""],
 ["2026-11-26 16:59:00","CAÑAVERAL","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Datáfono","NANCY MARCELA PELAYO AMADO","pagado","Primera cuota de siempre","20260002621",""],
 ["2026-11-26 16:58:52","BOULEVARD","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",-409000,"Datáfono","Kely xiomara pastran mora","devolución","Cuota renovada","20260004721","20260004701 - 26/11/2026"],
 ["2026-11-26 16:54:51","SAN PIO","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO + obsequio adicional",690000,"Transferencia","JOHAN ANDRE SERNA VELASCO","pagado","Primera cuota de siempre","20260004961",""],
