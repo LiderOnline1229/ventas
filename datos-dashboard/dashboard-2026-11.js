@@ -1,5 +1,8 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-26 07:11:51","BOULEVARD","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","Kely xiomara pastran mora","pagado","Primera cuota de siempre","20260004701",""],
+SABANA_MES['2026-11'] = [["2026-11-26 08:48:55","JARDIN PLAZA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Transferencia","VANESSA MARIA DEL PILAR LATORRE RIVERA","pagado","Primera cuota de siempre","20260004313",""],
+["2026-11-26 08:18:28","PARQUE CENTRAL","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","JUAN SEBASTIAN MANTILLA CHAPARRO","pagado","Primera cuota de siempre","20260002445",""],
+["2026-11-26 08:06:55","BOULEVARD","Cuota","Plan Bimestre 2026",180000,"Transferencia","TATIANA CAROLINA ORDUZ GOMEZ","pagado","Primera cuota de siempre","20260004702",""],
+["2026-11-26 07:11:51","BOULEVARD","Cuota","PLAN TRIMESTRAL 2026 + 2 MESES OBSEQUIO",409000,"Datáfono","Kely xiomara pastran mora","pagado","Primera cuota de siempre","20260004701",""],
 ["2026-11-26 00:38:41","SAN PIO","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Primera cuota de siempre","20260004953",""],
 ["2026-11-26 00:38:41","SAN PIO","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO WEB",99000,"Tarjeta","","pagado","Cuota renovada","20260004952",""],
 ["2026-11-26 00:38:32","PROVENZA","Cuota","Plan Easy Web $89000 (No vender)",89000,"Tarjeta","","pagado","Cuota renovada","20260003079",""],
