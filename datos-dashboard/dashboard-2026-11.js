@@ -1,5 +1,8 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-26 14:58:01","SAN PIO","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO + obsequio adicional",690000,"Transferencia","JHON ALEXANDER GUARIN CORREDOR","pagado","Cuota cambiada","20260004957",""],
+SABANA_MES['2026-11'] = [["2026-11-26 15:23:44","DE LA CUESTA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Transferencia","KAREN DANIELA CASTILLO SUAREZ","pagado","Primera cuota de siempre","20260005017",""],
+["2026-11-26 15:22:10","CAÑAVERAL","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Transferencia","SERGIO ANDRES VILLAMIZAR BERNAL","pagado","Primera cuota de siempre","20260002619",""],
+["2026-11-26 15:10:30","BOULEVARD","Cuota","Plan Anual exclusivo corporativo 590",0,"Otro","MICHELL ANDREA GELVEZ ARIAS","pagado","Primera cuota de siempre","20260004712",""],
+["2026-11-26 14:58:01","SAN PIO","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO + obsequio adicional",690000,"Transferencia","JHON ALEXANDER GUARIN CORREDOR","pagado","Cuota cambiada","20260004957",""],
 ["2026-11-26 14:56:19","JARDIN PLAZA","Bono servicio profesional","Control Fisioterapia",65000,"Transferencia","MARIA NATALY RAMIREZ DELGADO","pagado","","20260004321",""],
 ["2026-11-26 14:47:54","JARDIN PLAZA","Cuota","Plan mes corporativo - 70 - CERRADO",70000,"Transferencia","MARIA NATALY RAMIREZ DELGADO","pagado","Cuota renovada","20260004320",""],
 ["2026-11-26 14:45:05","CEIBA 2","Cuota","PLAN FLEXIBLE PRO CAMBIO DE TARJETA",99000,"Tarjeta","","pagado","Cuota renovada","20260006018",""],
