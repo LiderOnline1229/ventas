@@ -1,5 +1,11 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-27 07:42:00","DE LA CUESTA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Datáfono","LILIBETH URIBE","pagado","Primera cuota de siempre","20260005040",""],
+SABANA_MES['2026-11'] = [["2026-11-27 08:53:44","SAN PIO","Bono de espacio","ACCESS 3 DAY CORPORATIVO",0,"Gratis","ANA MARIA FLOREZ","pagado","","20260004974",""],
+["2026-11-27 08:51:29","CIUDADELA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO + obsequio adicional",690000,"Datáfono","JOHAN ANDRE SERNA VELASCO","pagado","Primera cuota de siempre","20260003476",""],
+["2026-11-27 08:30:16","CEIBA 2","Cuota","PLAN FLEXIBLE PRO DEBITO AUTOMATICO COUNTER",99000,"Tarjeta","","pagado","Cuota renovada","20260006042",""],
+["2026-11-27 08:15:17","DE LA CUESTA","Cuota","Plan Easy Web $89000 (No vender)",89000,"Tarjeta","","pagado","Cuota renovada","20260005041",""],
+["2026-11-27 08:09:17","JARDIN PLAZA","Bono de espacio","ACCESS DAY",0,"Gratis","ALEXANDRA MILENA GONZALEZ SUESCUN","pagado","","20260004330",""],
+["2026-11-27 07:55:08","SAN PIO","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Datáfono","Gerson Andres Triana Romero","pagado","Cuota cambiada","20260004973",""],
+["2026-11-27 07:42:00","DE LA CUESTA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Datáfono","LILIBETH URIBE","pagado","Primera cuota de siempre","20260005040",""],
 ["2026-11-27 07:41:31","PARQUE CENTRAL","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Datáfono","NANCY MARCELA PELAYO AMADO","pagado","Primera cuota de siempre","20260002462",""],
 ["2026-11-27 07:39:58","CIUDADELA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Otro","Gerson Andres Triana Romero","pagado","Primera cuota de siempre","20260003475",""],
 ["2026-11-27 07:31:02","PRADO","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Transferencia","Marlon Stiven Gelves Carrillo","pagado","Primera cuota de siempre","20260004010",""],
