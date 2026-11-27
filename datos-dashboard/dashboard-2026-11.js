@@ -1,5 +1,9 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-27 14:58:57","CEIBA 2","Bono de espacio","ACCESS DAY",0,"Gratis","BREINER FABIAN SANCHEZ GARCIA","pagado","","20260006051",""],
+SABANA_MES['2026-11'] = [["2026-11-27 15:02:58","CIUDADELA","Bono de espacio","Tiquetera 1 Dia",40000,"Datáfono","JULIAN LEONARDO RUEDA LEON","pagado","","20260003495",""],
+["2026-11-27 15:01:43","BOULEVARD","Cuota","Plan Anual exclusivo corporativo 590",0,"Otro","MICHELL ANDREA GELVEZ ARIAS","pagado","Primera cuota de siempre","20260004753",""],
+["2026-11-27 15:01:22","CAÑAVERAL","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Datáfono","TATIANA CAROLINA ORDUZ GOMEZ","pagado","Primera cuota de siempre","20260002632",""],
+["2026-11-27 15:00:52","DE LA CUESTA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Transferencia","Maria Alejandra Avila Espinosa","pagado","Primera cuota de siempre","20260005053",""],
+["2026-11-27 14:58:57","CEIBA 2","Bono de espacio","ACCESS DAY",0,"Gratis","BREINER FABIAN SANCHEZ GARCIA","pagado","","20260006051",""],
 ["2026-11-27 14:53:49","BOULEVARD","Bono de espacio","ACCESS DAY 3 CORPORATIVO",0,"Gratis","MICHELL ANDREA GELVEZ ARIAS","pagado","","20260004752",""],
 ["2026-11-27 14:52:52","DE LA CUESTA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Datáfono","MARCELA GOMEZ","pagado","Primera cuota de siempre","20260005052",""],
 ["2026-11-27 14:52:24","PARQUE CENTRAL","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Transferencia","TATIANA CAROLINA ORDUZ GOMEZ","pagado","Primera cuota de siempre","20260002469",""],
