@@ -1,5 +1,7 @@
 window.SABANA_MES = window.SABANA_MES || {};
-SABANA_MES['2026-11'] = [["2026-11-27 20:56:03","JARDIN PLAZA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Datáfono","MARIA NATALY RAMIREZ DELGADO","pagado","Primera cuota de siempre","20260004358",""],
+SABANA_MES['2026-11'] = [["2026-11-27 20:58:52","SAN PIO","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Transferencia","Gerson Andres Triana Romero","pagado","Primera cuota de siempre","20260005017",""],
+["2026-11-27 20:58:44","CEIBA 2","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Transferencia","BREINER FABIAN SANCHEZ GARCIA","pagado","Primera cuota de siempre","20260006074",""],
+["2026-11-27 20:56:03","JARDIN PLAZA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Datáfono","MARIA NATALY RAMIREZ DELGADO","pagado","Primera cuota de siempre","20260004358",""],
 ["2026-11-27 20:55:06","CEIBA 2","Bono de espacio","MEMBRESIA 2026",190000,"Transferencia","Yender Edgardo Ropero León","pagado","","20260006073",""],
 ["2026-11-27 20:52:36","DE LA CUESTA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Datáfono","LILIBETH URIBE","pagado","Primera cuota de siempre","20260005088",""],
 ["2026-11-27 20:52:24","DE LA CUESTA","Cuota","BLACKFRIDAY 2026 10 MESES Y 2 DE OBSEQUIO",650000,"Otro","TATIANA CAROLINA ORDUZ GOMEZ","pagado","Primera cuota de siempre","20260005087",""],
